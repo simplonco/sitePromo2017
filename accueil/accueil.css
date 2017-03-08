@@ -57,11 +57,18 @@ body {
   margin-left: auto;
   margin-right: auto;
   border-right: solid white 1px;
+  -webkit-transition: all 0.5s;
 }
 
 .menuScnd a {
   color: white;
   text-decoration: none;
+}
+
+.menuScnd li:hover,
+.menuScnd li:focus {
+	transform: scale(1.2);
+  transition: all 0.5s ease-out;
 }
 
 ul.topnav {
@@ -107,4 +114,10 @@ ul.topnav li a:hover:not(.active) {
 }
 ul.topnav li a.active {
   background-color: rgba(255,255,255,0.3);
+}
+
+@media screen and (max-width: 1080px) {
+  body {
+    min-height: 900px;
+  }
 }
