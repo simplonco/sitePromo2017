@@ -1,0 +1,223 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #000;
+    font-family: "Georgia", serif;
+  }
+
+/*
+  The gallery container.
+   - Fills the browser window.
+   - Renders its contents in 3D.
+   - Has a gradient mask to fade out slides at the left and right edges.
+*/
+
+#gallery {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-perspective: 600px;
+  overflow: hidden;
+  -webkit-mask-image: -webkit-gradient(linear, left top, right top, color-stop(0, rgba(0,0,0,.2)), color-stop(.1, rgba(0,0,0,1)), color-stop(.9, rgba(0,0,0,1)), color-stop(1, rgba(0,0,0,.2)) );
+}
+
+
+/*
+  Images within the gallery.
+   - Add a reflection below the image.
+   - Fade the reflection out gradually towards the bottom.
+   - Make the image resize with its containing div.
+   - Hide the image initially.
+*/
+
+#gallery img {
+  -webkit-box-reflect:
+    below
+    0
+    -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      color-stop(0, rgba(255, 255, 255, 0)),
+      color-stop(.5, rgba(255, 255, 255, .3)),
+      color-stop(1, rgba(255, 255, 255, .3))
+    );
+
+    max-width: inherit;
+    max-height: inherit;
+    display: none;
+}
+
+
+/*
+  Divs wrapped around the gallery images and reflections.
+   - Add some bottom padding to allow for the reflection.
+   - Position the div below the gallery bottom so the reflection is partially hidden.
+   - Give the div a black background to prevent other reflections leaking through.
+*/
+
+#gallery div {
+  position: absolute;
+  padding-bottom: 400px;
+  bottom: -300px;
+  background: #000;
+}
+
+
+/*
+  The slider / scrollbar.
+   - Position it below the gallery.
+   - Turn off the default appearance.
+   - Give it a rounded border and light grey background.
+   - Make it semitransparent.
+   - Hide it initially.
+*/
+
+#slider {
+  position: absolute;
+  bottom: 20px;
+  left: 5%;
+  right: 5%;
+  -webkit-appearance: none !important;
+  border-radius: 10px;
+  border: 1px solid white;
+  background: #999;
+  opacity: .5;
+  display: none;
+}
+
+
+/*
+  The slider's thumb control.
+   - Turn off the default appearance.
+   - Give it a rounded border and gradient background.
+*/
+
+#slider::-webkit-slider-thumb {
+  -webkit-appearance: none !important;
+  width: 50px;
+  height: 18px;
+  border-radius: 10px;
+  border: 2px solid #fff;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #999), color-stop(.5, #000) );
+}
+
+
+/*
+  The current slide caption.
+   - Position it below the slide.
+   - Centre it horizontally.
+   - Give it a font that's remarkably similar to the real thing. :)
+*/
+
+#caption {
+  position: absolute;
+  z-index: 2;
+  bottom: 75px;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  font-family: "Lucida Grande", sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+
+/*
+  Loading text.
+   - Position in the centre of the gallery container
+   - Hide by default
+*/
+
+#loading {
+  position: absolute;
+  z-index: 1;
+  bottom: 50%;
+  width: 100%;
+  color: #ffc;
+  text-align: center;
+  font-family: "Georgia", serif;
+  font-size: 36px;
+  letter-spacing: .1em;
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+
+
+/*
+  Tutorial info box.
+   - Position it in the bottom right corner of the window
+   - Give the 'i' h1 a circular border
+   - Hide the whole div by default
+   - Fade it in on hover
+*/
+
+#info {
+  color: #ffc;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 99;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  background: transparent;
+  -webkit-transition: background-color .5s;
+  -moz-transition: background-color .5s;
+  -o-transition: background-color .5s;
+  transition: background-color .5s;
+  font-size: 70%;
+}
+
+#info>* {
+  margin: 10px 50px 10px 0;
+  cursor: default;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  -webkit-transition: opacity .5s;
+  -moz-transition: opacity .5s;
+  -o-transition: opacity .5s;
+  transition: opacity .5s;
+  zoom: 1;
+}
+
+#info p {
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+}
+
+#info h1 {
+  position: fixed;
+  z-index: 99;
+  margin: 0;
+  padding: 17px 1px 4px 14px;
+  right: 30px;
+  top: 30px;
+  width: 20px;
+  height: 14px;
+  font-size: 20px;
+  border: 3px solid #ffc;
+  line-height: 1px;
+  border-radius: 20px;
+  color: #ffc;
+  opacity: .5;
+  filter: alpha(opacity=50);
+}
+
+#info:hover, #info.hover {
+  background: rgba(50,50,50,.6);
+}
+
+#info:hover *, #info.hover * {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  color: #ffc;
+}
+
+/* (Give the link the same colour as the other text in the box) */
+
+#info a {
+  color: #ffc;
+}
