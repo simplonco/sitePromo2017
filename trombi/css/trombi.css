@@ -1,10 +1,14 @@
 body {
-    margin: 0;
-    padding: 0;
     background: #000;
     font-family: "Georgia", serif;
+    margin:0;
+    padding:0;
+    font-family: helvetica;
   }
-
+header{
+    background: red;
+    height: 200px;
+}
 /*
   The gallery container.
    - Fills the browser window.
@@ -13,9 +17,8 @@ body {
 */
 
 #gallery {
-  position: absolute;
   width: 100%;
-  height: 100%;
+  height: 370px;
   -webkit-perspective: 600px;
   overflow: hidden;
   -webkit-mask-image: -webkit-gradient(linear, left top, right top, color-stop(0, rgba(0,0,0,.2)), color-stop(.1, rgba(0,0,0,1)), color-stop(.9, rgba(0,0,0,1)), color-stop(1, rgba(0,0,0,.2)) );
@@ -59,6 +62,7 @@ body {
 #gallery div {
   position: absolute;
   padding-bottom: 400px;
+  height: 370px;
   bottom: -300px;
   background: #000;
 }
@@ -74,7 +78,6 @@ body {
 */
 
 #slider {
-  position: absolute;
   bottom: 20px;
   left: 5%;
   right: 5%;
@@ -111,14 +114,14 @@ body {
 */
 
 #caption {
-  position: absolute;
+  position: relative;
   z-index: 2;
-  bottom: 75px;
+  bottom: 100px;
   width: 100%;
   color: #fff;
   text-align: center;
-  font-family: "Lucida Grande", sans-serif;
-  font-size: 12px;
+  font-family: helvetica, sans-serif;
+  font-size: 20px;
   font-weight: bold;
 }
 
@@ -145,79 +148,59 @@ body {
 
 
 /*
-  Tutorial info box.
-   - Position it in the bottom right corner of the window
-   - Give the 'i' h1 a circular border
-   - Hide the whole div by default
-   - Fade it in on hover
+ Footer
 */
 
-#info {
-  color: #ffc;
-  position: fixed;
-  top: 20px;
-  right: 20px;
-  z-index: 99;
-  border: none;
-  border-radius: 20px;
-  padding: 10px 20px;
-  background: transparent;
-  -webkit-transition: background-color .5s;
-  -moz-transition: background-color .5s;
-  -o-transition: background-color .5s;
-  transition: background-color .5s;
-  font-size: 70%;
+footer{
+  background-color: rgba(0,0,0,0.9);
+  color:white;
+  /*height: 500px;*/
+  border-top: 3px solid #FF7800;
 }
-
-#info>* {
-  margin: 10px 50px 10px 0;
-  cursor: default;
-  opacity: 0;
-  filter: alpha(opacity=0);
-  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-  -webkit-transition: opacity .5s;
-  -moz-transition: opacity .5s;
-  -o-transition: opacity .5s;
-  transition: opacity .5s;
-  zoom: 1;
+.partners{
+  text-align: center;
+  padding-top: 2em;
+  padding-left: 1em;
 }
-
-#info p {
-  opacity: 0;
-  filter: alpha(opacity=0);
-  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+.logoPartners{
+  display: flex;
+  justify-content: space-around;
+  align-items:center;
+  height:300px;
+  width:100%;
 }
-
-#info h1 {
-  position: fixed;
-  z-index: 99;
-  margin: 0;
-  padding: 17px 1px 4px 14px;
-  right: 30px;
-  top: 30px;
-  width: 20px;
-  height: 14px;
-  font-size: 20px;
-  border: 3px solid #ffc;
-  line-height: 1px;
-  border-radius: 20px;
-  color: #ffc;
-  opacity: .5;
-  filter: alpha(opacity=50);
+footer img{
+  border-radius: 4px;
 }
-
-#info:hover, #info.hover {
-  background: rgba(50,50,50,.6);
+.logoPartners img:hover{
+  margin: -5px;
+  border: solid 5px #FF7800;
 }
-
-#info:hover *, #info.hover * {
-  opacity: 1;
-  filter: alpha(opacity=100);
-  color: #ffc;
+.copyright{
+  text-align: center;
+  color: #EDDFB3;
+  display: flex;
+  justify-content: flex-end;
 }
-
-/* (Give the link the same colour as the other text in the box) */
-
-#info a {
-  color: #ffc;
+.copyright p{
+  padding-right: 30%;
+}
+.fleche{
+  float:right;
+  margin-right: 3em;
+}
+@media screen and (max-width: 768px)
+{
+  footer img{
+    width:100px;
+  }
+  .fleche{
+    width:50px;
+  }
+}
+@media screen and (max-width: 640px)
+{
+    footer img{
+      width:50px;
+    }
 }

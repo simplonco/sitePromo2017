@@ -53,6 +53,7 @@ function init() {
     displayGallery();
   } );
 
+
   // Redraw the gallery whenever the user resizes the browser
   $(window).resize( displayGallery );
 
@@ -115,8 +116,8 @@ function displayGallery() {
     var div = $(this);
 
     // Resize each slide if necessary (e.g. if the window height has changed)
-    div.css('max-width', slideHeight);
-    div.css('max-height', slideHeight);
+    div.css('max-width', "250px");
+    div.css('max-height', "250px");
 
     if ( ++pos < currentSlide ) {
 
