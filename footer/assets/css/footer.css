@@ -49,10 +49,19 @@ footer img{
   .fleche{
     width:50px;
   }
+  .logoPartners{
+    height:200px;
+  }
 }
 @media screen and (max-width: 640px)
 {
     footer img{
       width:50px;
+    }
+    .logoPartners{
+      height:100px;
+    }
+    .fleche{
+      width:40px;
     }
 }
