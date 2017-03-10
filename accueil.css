@@ -1,7 +1,6 @@
 body {
   margin: 0;
   max-height: 641px;
-  /*900px en 1080p*/
 }
 
 * {
@@ -15,10 +14,11 @@ body {
 .titres img {
   width: 150px;
   height: auto;
+  z-index: 5;
 }
 
 .header {
-  background: url("img/background.jpg") scroll no-repeat;
+  background: url("assets/img/background.jpg") scroll no-repeat;
   background-size: 120%;
   background-position: 0px -80px;
 }
