@@ -1,6 +1,7 @@
 body {
   margin: 0;
   max-height: 641px;
+  background-color: #000;
 }
 
 * {
@@ -18,7 +19,7 @@ body {
 }
 
 .header {
-  background: url("assets/img/background.jpg") scroll no-repeat;
+  background: url("../img/background.jpg") scroll no-repeat;
   background-size: 120%;
   background-position: 0px -80px;
 }
