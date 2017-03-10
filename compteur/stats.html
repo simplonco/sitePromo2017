@@ -2,78 +2,34 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="odometer-theme-car.css" />
-<script src="odometer.js"></script>
+    <link rel="stylesheet" href="assets/css/stats.css" />
 <link rel="stylesheet" href="../odometer/themes/odometer-theme-default.css" />
-<style>
-body{
-  background-color:grey;
-  color: black;
-}
-#container{
-  display: flex;
-  justify-content: space-around;
-}
-
-h2{
-  width: 250px;
-  height: 150px;
-}
-.odometer {
-    font-size: 50px;
-    background-color:#555;
-    border-radius:20px;
-    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.5) inset,
-                0px 2px 2px 0px rgba(255, 255, 255, 0.5);
-    text-shadow: 2px 2px #6FC9C3;
-}
-#biere, #clash, #rire{
-
-}
-
-</style>
-    <title></title>
+    <title>Stats</title>
   </head>
   <body>
     <h1>Nos stats</h1>
     <div id="container">
     <div id="biere">
-      <h2>Nombre de bières enregistrées:</h2>
+      <h2><span>N</span>ombre de bières:</h2>
     <div id="odometer" class="odometer">1</div>K
     </div>
 
     <div id="clash">
-      <h2>Nombre de crise de nerf:</h2>
+      <h2><span>N</span>ombre de crise de nerf:</h2>
     <div id="odometer1" class="odometer">1</div>
     </div>
 
     <div id="rire">
-      <h2>Nombre de fous rires:</h2>
+      <h2><span>N</span>ombre de fous rires:</h2>
     <div id="odometer2" class="odometer">1</div>
     </div>
 
     <div id="kilo">
-      <h2>Nombre de kilos pris:</h2>
+      <h2><span>N</span>ombre de kilos pris:</h2>
     <div id="odometer3" class="odometer">1</div>
     </div>
   </div>
     <script src="../odometer/odometer.js"></script>
-    <script>
-    setTimeout(function(){
-        odometer.innerHTML = 100000;
-    }, 1000);
-
-    setTimeout(function(){
-        odometer1.innerHTML = 100;
-    }, 1000);
-
-    setTimeout(function(){
-        odometer2.innerHTML = 1000;
-    }, 1000);
-
-    setTimeout(function(){
-        odometer3.innerHTML = 10;
-    }, 1000);
-    </script>
+    <script src="assets/js/stats.js"></script>
   </body>
 </html>
