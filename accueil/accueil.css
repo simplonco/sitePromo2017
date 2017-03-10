@@ -11,14 +11,6 @@ body {
   text-align: center;
 }
 
-.snoop {
-  position: absolute;
-  z-index: 0;
-  top: 212px;
-  left: 583px;
-  height:120px;
-}
-
 .titres img {
   width: 150px;
   height: auto;
@@ -26,7 +18,7 @@ body {
 }
 
 .header {
-  background: url("assets/img/background2.jpg") scroll no-repeat;
+  background: url("assets/img/background.jpg") scroll no-repeat;
   background-size: 120%;
   background-position: 0px -80px;
 }
