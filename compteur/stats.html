@@ -51,6 +51,11 @@ h2{
       <h2>Nombre de fous rires:</h2>
     <div id="odometer2" class="odometer">1</div>
     </div>
+
+    <div id="kilo">
+      <h2>Nombre de kilos pris:</h2>
+    <div id="odometer3" class="odometer">1</div>
+    </div>
   </div>
     <script src="../odometer/odometer.js"></script>
     <script>
@@ -64,6 +69,10 @@ h2{
 
     setTimeout(function(){
         odometer2.innerHTML = 1000;
+    }, 1000);
+
+    setTimeout(function(){
+        odometer3.innerHTML = 10;
     }, 1000);
     </script>
   </body>
