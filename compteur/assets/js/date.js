@@ -13,7 +13,6 @@ var x = setInterval(function() {
 
     document.getElementById("demo").innerHTML = days + " Jours " + hours + " Heures "
     + minutes + " Minutes " + seconds + " Secondes ";
-
     if (distance < 0) {
         clearInterval(x);
         document.getElementById("demo").innerHTML = "EXPIRED";
