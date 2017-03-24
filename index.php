@@ -11,13 +11,7 @@
 <body id="haut">
   <div class="content">
     <header class="header">
-      <div class="navBar">
-        <ul class="topnav">
-          <li><a href="./contact.html"> Contact </a></li>
-          <li><a href="#"> A propos </a></li>
-          <li><a class="active" href="#"> Accueil </a></li>
-        </ul>
-      </div>
+      <?php include("header.php"); ?>
       <div class="titres">
         <h1 class="h1">Simplon ERN</h1>
         <img src="assets/img/logoNarbonne.png" alt="logo"/>
