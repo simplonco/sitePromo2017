@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title></title>
-    <link rel="stylesheet" href="./assets/css/trombi.css">
+    <link rel="stylesheet" href="./assets/css/footer.css">
 
   </head>
   <body>

@@ -11,14 +11,14 @@ footer{
 }
 .partners{
   text-align: center;
-  padding-top: 2em;
+  /*padding-top: 2em;*/
   padding-left: 1em;
 }
 .logoPartners{
   display: flex;
   justify-content: space-around;
   align-items:center;
-  height:300px;
+  height:200px;
   width:100%;
 }
 footer img{

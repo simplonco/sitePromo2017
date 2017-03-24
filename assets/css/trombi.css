@@ -228,11 +228,11 @@ ul.topnav li a.active {
  Footer
 */
 
-footer{
+/*footer{
   background-color: rgba(0,0,0,0.9);
   color:white;
   /*height: 500px;*/
-  border-top: 3px solid #FF7800;
+  /*border-top: 3px solid #FF7800;
 }
 .partners{
   text-align: center;
@@ -280,4 +280,4 @@ footer img{
     footer img{
       width:50px;
     }
-}
+}*/*/
