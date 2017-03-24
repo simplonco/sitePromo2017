@@ -5,22 +5,14 @@
 <title>Trombinoscope Simplon Narbonne 2017</title>
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
 <link rel="stylesheet" href="assets/css/trombi.css">
-
+<link rel="icon" href="assets/img/favicon.ico">
 <script type="text/javascript" src="assets/js/jquery.min.js"></script>
 <script type="text/javascript" src="assets/jquery.jswipe-0.1.2.js"></script>
 
 </head>
 <body>
     <div class="content">
-      <header class="header">
-        <div class="navBar">
-          <ul class="topnav">
-            <li><a href="./contact.html"> Contact </a></li>
-            <li><a href="#"> A propos </a></li>
-            <li><a href="./index.html"> Accueil </a></li>
-          </ul>
-        </div>
-    </header>
+  <?php include 'includes/templates/header.php';?>
         <div class="trombi">
             <div id="gallery">
                 <img src="assets/img/fred.png" alt="Fred : Sic parvis magna" />
@@ -46,7 +38,7 @@
             <div id="loading">Please wait...</div>
         </div>
     </div>
-<?php include 'footer.php';?>
+<?php include 'includes/templates/footer.php';?>
 
 
 <script src="assets/js/trombi.js"></script>
