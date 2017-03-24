@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>parallax effect</title>
+    <link href="assets/css/parallax.css" rel="stylesheet" >
+    <script src="assets/js/jquery.js"></script>
+  	<script src="assets/js/jquery.real-parallax.js"></script>
+    <script type="text/javascript">
+    $('#myParallax').parallax({
+      width: 390,
+      height: 270,
+      enableMouse: true,
+      activateOnClick: false,
+      sensitivityX: .5,
+      sensitivityY: .4,
+      easingCoefficient: 7,
+      autoZCoordinate: true,
+      useCustomZ: true,
+      focusZ: 100
+    });
+    $(document).ready(function(){
+			$('#myParallax').parallax({width: 390,  height: 270,focusZ:80, sensitivityY:0.4, sensitivityX:1.2, easingCoefficient:30});
+		});
+    </script>
+  </head>
+  <body>
+  <div class="cadre">
+    <div id="myParallax" class="glowbox overflow-hidden">
+    <div id="l"></div>
+
+
+      <div style="left:-100px;top:-50px;background-image: url(assets/img/fond.jpg);background-repeat:repeat-x; height: 480px; width: 800px;">
+      </div>
+
+      <div style="left:320px;top:10px;" data-z="100">
+        <img src="assets/img/html5.png" width="53px" height="75px" />
+      </div>
+
+      <div style="left:185px;top:65px;" data-z="50">
+        <img src="assets/img/css3.png" width="71px" height="100px" />
+      </div>
+
+      <div style="left:270px;top:150px;" data-z="35">
+        <img src="assets/img/sf.png" width="106px" height="106px" />
+      </div>
+
+      <div style="left:15px;top:105px;" data-z="10">
+        <img src="assets/img/js.png" width="106px" height="150px" />
+      </div>
+    <div style="left:10px;top:240px;" data-lock="yes"></div>
+  </div>
+  </body>
+</html>
