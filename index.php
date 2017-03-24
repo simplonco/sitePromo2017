@@ -11,7 +11,7 @@
 <body id="haut">
   <div class="content">
     <header class="header">
-      <?php include("header.php"); ?>
+      <?php include("includes/templates/header.php"); ?>
       <div class="titres">
         <h1 class="h1">Simplon ERN</h1>
         <img src="assets/img/logoNarbonne.png" alt="logo"/>
@@ -27,5 +27,6 @@
       </div>
     </header>
   </div>
+  <?php include 'includes/templates/footer.php';?>
 </body>
 </html>
