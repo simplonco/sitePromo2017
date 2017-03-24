@@ -11,7 +11,7 @@
 <script type="text/javascript" src="assets/jquery.jswipe-0.1.2.js"></script>
 
 </head>
-<body>
+<body id="haut">
     <div class="content">
         <?php include 'includes/templates/header.php';?>
 
