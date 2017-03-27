@@ -10,14 +10,9 @@
 </head>
 <body id="haut">
   <div class="content">
-<<<<<<< HEAD
 
-      <?php include("header.php"); ?>
-      
-=======
     <header class="header">
       <?php include("includes/templates/header.php"); ?>
->>>>>>> 7e29711de12003ec09f4deb1044a39892d2ee557
       <div class="titres">
         <h1 class="h1">Simplon ERN</h1>
         <img src="assets/img/logoNarbonne.png" alt="logo"/>
@@ -33,6 +28,6 @@
       </div>
     </header>
   </div>
-  <?php include 'includes/templates/footer.php';?>
+  <?php include("./includes/templates/footer.php") ?>
 </body>
 </html>
