@@ -17,7 +17,7 @@
 
         <div class="trombi">
             <div id="gallery">
-                <img src="assets/img/fred.png" alt="Fred : Sic parvis magna" aria-linkedin="" aria-github="https://github.com/anneserrano"/>
+                <img src="assets/img/fred.png" alt="Fred : Sic parvis magna"aria-linkedin="" aria-github="https://github.com/anneserrano"/>
                 <img src="assets/img/bruno.png" alt="Bruno : Je réfléchis." aria-linkedin="" aria-github="https://github.com/anneserrano"/>
                 <img src="assets/img/memilie.png" alt="Mémilie : Styleyyyy" aria-linkedin="" aria-github="https://github.com/anneserrano"/>
                 <img src="assets/img/sandra.png" alt="Sandra : C'est pénible" aria-linkedin="" aria-github="https://github.com/anneserrano"/>
