@@ -48,7 +48,7 @@
 
         <article class="lexique">
             <h3>APACHE</h3>
-            <img src="../assets/img/apacheLogo.png" alt="logo Apache HTTP Server" title="Rester enfoncé pour zoomer" />
+            <img src="../assets/img/Apache1.png" alt="logo Apache HTTP Server" title="Rester enfoncé pour zoomer" />
             <h3>Historique</h3>
             <p> Apache est apparu en avril 1995. Au début, il s'agissait d'une collection de correctifs et d'additions au serveur NCSA HTTPd 1.3, qui était dans le domaine public et le serveur HTTP alors le plus répandu. De cette origine, de nombreuses personnes
                 affirment que le nom Apache vient de a patchy server, soit « un serveur rafistolé ». Par la suite, Apache a été complètement réécrit, de sorte que, dans la version 2, il ne reste pas de trace de NCSA HTTPd.</p>
@@ -65,7 +65,56 @@
             <p>Sources : <a href="https://fr.wikipedia.org/wiki/Apache_HTTP_Server#Historique" target="_blank"> Wikipedia.fr</a></p>
         </article>
 
+
+
+
+
         <div id="b">B</div>
+        <article class="lexique">
+            <img src="../assets/img/bower.png" alt="logo Bower" title="Rester enfoncé pour zoomer" />
+            <h3>BOWER</h3>
+            <p><strong>Bower</strong> fait partie d'une panoplie de services de nouvelle génération destinés à automatiser un maximum de tâches à votre place. Le but de cet outil développé par l'équipe de Twitter est de gérer les dépendances de votre projet.</p>
+            <p> C'est quoi, une dépendance ? Lorsque vous débutez un nouveau projet, votre première tâche est de créer (ou de copier-coller) l'arborescence de vos fichiers et dossiers. Votre mission suivante est d'aller visiter un par un les outils incontournables
+                pour votre projet : jQuery, Modernizr, Bootstrap, etc. et d'installer les nouvelles versions de ces outils… ou alors de mettre à jour vos propres modules les uns après les autres. Avouez que vous gagneriez du temps à ne plus vous soucier
+                de ce genre de tâches répétitives quotidiennes. Eh bien figurez-vous que ça tombe bien : tous les outils tels que jQuery, Modernizr ou Bootstrap sont des dépendances que <strong>Bower</strong> va vous aider à installer en une ligne de
+                code !
+            </p>
+            <p> La liste des dépendances inscrites dans le registre de <strong>Bower</strong> est pour le moins impressionnante, et parmi lesquelles vous trouverez un bon nombre de célébrités :</p>
+            <ul>
+                <li>Twitter Bootstrap</li>
+                <li>jQuery</li>
+                <li>html5boilerplate</li>
+                <li>html5boilerplate</li>
+                <li>font-awesome</li>
+                <li>modernizr</li>
+                <li>html5shiv</li>
+                <li>normalize</li>
+                <li>jQuery mobile</li>
+                <li>grunt</li>
+                <li>purecss</li>
+                <li>respond</li>
+                <li>raphael</li>
+                <li>zepto</li>
+                <li>phonegap</li>
+                <li>yepnope</li>
+                <li>… knacss</li>
+            </ul>
+            <p> Deux pré-requis sont nécessaires au bon fonctionnement de <strong>Bower</strong> : Node.js (et son manager NPM, Node Packaged Modules) et Git.</p>
+            <p> Bien que pratique et rapide, <strong>Bower</strong> n'en demeure pas moins un "simple" gestionnaire de dépendances : il n'est pas prévu pour construire des dossiers de projets complets, ni pour concaténer ou minifier des ressources. Pour ce
+                genre d'aspirations, et pour aller plus loin, il vous faudra lorgner du côté d'autres outils tels que Yeoman ou Grunt.</p>
+            <p>Source:
+                <a href="https://www.alsacreations.com/tuto/lire/1609-bower-pour-les-nuls.html">AlsaCréations</a>
+            </p>
+
+
+
+
+
+
+
+
+
+        </article>
         <div id="c">C</div>
         <article class="lexique">
             <img src="../assets/img/CSS.png" alt="schema css" title="Rester enfoncé pour zoomer" />
@@ -120,6 +169,46 @@
                 dans le temps, ou bien même vouloir revenir en arrière. C'est à cela que servent les commits.</p>
             <p>Sources : <a href="http://igm.univ-mlv.fr/~dr/XPOSE2011/foucault/">Mini-site Foucault</a></p>
         </article>
+
+        <article class="lexique">
+            <img src="../assets/img/grunt.jpg" alt="illustration_grunt" width=50% height=30% />
+            <h3>GRUNT - Qu'est-ce que c'est ?</h3>
+            <p><strong>Grunt</strong> est un outil d’exécution de commandes en Javascript. Les intégrateurs web doivent minifier les fichiers avant mise en production, réduire le poids des images, concatener le code, etc. Eh bien Grunt est un task runner, c'est à dire qu'il effectue ces tâches pour vous.</p>
+            <p>Grunt fonctionne avec Node.js (cf -def: NPM):
+              <ul>
+                <li>Premièrement installer Grunt: <code>npm install -g grunt-cli</code></li>
+                <li>Contaténer les fichiers avec le plug-in: <code>npm install grunt-contrib-concat --save-dev</code></li>
+                <li>Minifier JavaScript avec le plug-in: <code>npm install grunt-contrib-uglify --save-dev</code></li>
+                <li>Optimisation des images avec le plug-in: <code>npm install grunt-contrib-imagemin --save-dev</code></li>
+                </p>
+            <p>Sources : <a href="https://la-cascade.io/grunt-pour-ceux-qui-pensent-que-grunt-est-complique/">La cascade</a></p>
+        </article>
+        
+        <article class="lexique">
+            <img src="../assets/img/gulp2.jpg" alt="image gulp" width=50% height=30% />
+            <h3>Gulp !</h3>
+            <p><strong>Gulp</strong> est un "Automatiseur de tâches", un task runner comme disent nos amis anglophones, c'est à dire qu'il est capable de lancer des bouts de scripts à votre place tout seul comme un grand.</br></br>
+            Ces tâches dépendent de votre bon vouloir et peuvent être très variées :</p>
+            <ul>
+                <li>Des opérations simples telles que minifier ou concaténer du CSS ou du JavaScript,</li>
+                <li>La création ou la suppression de dossiers ou de fichiers (possibilité de créer un projet à partir de zéro),</li>
+                <li>L'optimisation, la compression d'images,</li>
+                <li>La création de serveur local permettant de tester sur de multiples périphériques en même temps,</li>
+                <li>La simulation de navigateurs fantômes conçus pour parcourir et tester les regressions d'affichage d'une page,</li>
+                <li>Etc...</li>
+            </ul>
+            <h4>T'as une tâche là !</h4>
+            <p>Pour vous représenter le nombre d'actions réalisables par Gulp, sachez que les quelques 2000 plugins recensés représentent tout autant de tâches exécutables au sein de votre projet.</p>
+
+            <p>En clair, intégré à votre environnement de travail, Gulp va vous permettre d'économiser énormément de temps en se chargeant de toutes les tâches répétitives et automatisables. Vous n'aurez plus qu'à vous concentrer sur votre vrai travail : produire du code propre et fonctionnel, et prendre un café de temps en temps.
+            Les pré-requis de Gulp.</br></br>
+            Pour accomplir vos premiers exploits avec Gulp, vous n'aurez besoin que de :</p>
+            <ul>
+              <li>Node.js</li>
+              <li>Ne pas être trop allergique à la ligne de commande</li>
+            </ul>
+          <p>Sources : <a href="https://www.alsacreations.com/tuto/lire/1686-introduction-a-gulp.html">Lien pour plus de détails</a></p>
+
 
         <div id="h">H</div>
         <article class="lexique">
@@ -239,6 +328,15 @@
                 tout ou partie d'un logiciel ou d'interfaces déjà développés ailleurs.</p>
             <a href="https://fr.wikipedia.org/wiki/Not_invented_here">source: Wikipedia</a>
         </article>
+
+        <article class="lexique">
+          <h3>NPM: The Node Package Manager</h3>
+          <img src="../assets/img/npm_on-site_logo_large.png" alt="NPM">
+          <p>NPM est le gestionnaire de paquets officiel de Node.js. Depuis la version 0.6.3 de Node.js, NPM fait partie de l'environnement et est donc automatiquement installé par défaut3. NPM fonctionne avec un terminal et gère les dépendances pour une application. Il permet également d'installer des applications Node.js disponibles sur le dépôt NPM.</p>
+          <p>Exemple: <code>$ npm install bootstrap@3</code></p>
+          <p>Source: <a href="https://fr.wikipedia.org/wiki/Npm">wikipedia</A></p>
+        </article>
+
 
         <div id="o">O</div>
         <div id="p">P</div>
