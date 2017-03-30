@@ -48,7 +48,7 @@
 
         <article class="lexique">
             <h3>APACHE</h3>
-            <img src="../assets/img/apacheLogo.png" alt="logo Apache HTTP Server" title="Rester enfoncé pour zoomer" />
+            <img src="../assets/img/Apache1.png" alt="logo Apache HTTP Server" title="Rester enfoncé pour zoomer" />
             <h3>Historique</h3>
             <p> Apache est apparu en avril 1995. Au début, il s'agissait d'une collection de correctifs et d'additions au serveur NCSA HTTPd 1.3, qui était dans le domaine public et le serveur HTTP alors le plus répandu. De cette origine, de nombreuses personnes
                 affirment que le nom Apache vient de a patchy server, soit « un serveur rafistolé ». Par la suite, Apache a été complètement réécrit, de sorte que, dans la version 2, il ne reste pas de trace de NCSA HTTPd.</p>
@@ -65,7 +65,56 @@
             <p>Sources : <a href="https://fr.wikipedia.org/wiki/Apache_HTTP_Server#Historique" target="_blank"> Wikipedia.fr</a></p>
         </article>
 
+
+
+
+
         <div id="b">B</div>
+        <article class="lexique">
+            <img src="../assets/img/bower.png" alt="logo Bower" title="Rester enfoncé pour zoomer" />
+            <h3>BOWER</h3>
+            <p><strong>Bower</strong> fait partie d'une panoplie de services de nouvelle génération destinés à automatiser un maximum de tâches à votre place. Le but de cet outil développé par l'équipe de Twitter est de gérer les dépendances de votre projet.</p>
+            <p> C'est quoi, une dépendance ? Lorsque vous débutez un nouveau projet, votre première tâche est de créer (ou de copier-coller) l'arborescence de vos fichiers et dossiers. Votre mission suivante est d'aller visiter un par un les outils incontournables
+                pour votre projet : jQuery, Modernizr, Bootstrap, etc. et d'installer les nouvelles versions de ces outils… ou alors de mettre à jour vos propres modules les uns après les autres. Avouez que vous gagneriez du temps à ne plus vous soucier
+                de ce genre de tâches répétitives quotidiennes. Eh bien figurez-vous que ça tombe bien : tous les outils tels que jQuery, Modernizr ou Bootstrap sont des dépendances que <strong>Bower</strong> va vous aider à installer en une ligne de
+                code !
+            </p>
+            <p> La liste des dépendances inscrites dans le registre de <strong>Bower</strong> est pour le moins impressionnante, et parmi lesquelles vous trouverez un bon nombre de célébrités :</p>
+            <ul>
+                <li>Twitter Bootstrap</li>
+                <li>jQuery</li>
+                <li>html5boilerplate</li>
+                <li>html5boilerplate</li>
+                <li>font-awesome</li>
+                <li>modernizr</li>
+                <li>html5shiv</li>
+                <li>normalize</li>
+                <li>jQuery mobile</li>
+                <li>grunt</li>
+                <li>purecss</li>
+                <li>respond</li>
+                <li>raphael</li>
+                <li>zepto</li>
+                <li>phonegap</li>
+                <li>yepnope</li>
+                <li>… knacss</li>
+            </ul>
+            <p> Deux pré-requis sont nécessaires au bon fonctionnement de <strong>Bower</strong> : Node.js (et son manager NPM, Node Packaged Modules) et Git.</p>
+            <p> Bien que pratique et rapide, <strong>Bower</strong> n'en demeure pas moins un "simple" gestionnaire de dépendances : il n'est pas prévu pour construire des dossiers de projets complets, ni pour concaténer ou minifier des ressources. Pour ce
+                genre d'aspirations, et pour aller plus loin, il vous faudra lorgner du côté d'autres outils tels que Yeoman ou Grunt.</p>
+            <p>Source:
+                <a href="https://www.alsacreations.com/tuto/lire/1609-bower-pour-les-nuls.html">AlsaCréations</a>
+            </p>
+
+
+
+
+
+
+
+
+
+        </article>
         <div id="c">C</div>
         <article class="lexique">
             <img src="../assets/img/CSS.png" alt="schema css" title="Rester enfoncé pour zoomer" />
@@ -119,6 +168,20 @@
                 a donc une vie. Les snapshot permettent donc de figer l'état d'un dossier à un moment précis dans le temps afin de pouvoir effectuer différentes opérations dessus. En effet on pourrait vouloir comparer les fichiers à deux moments différents
                 dans le temps, ou bien même vouloir revenir en arrière. C'est à cela que servent les commits.</p>
             <p>Sources : <a href="http://igm.univ-mlv.fr/~dr/XPOSE2011/foucault/">Mini-site Foucault</a></p>
+        </article>
+
+        <article class="lexique">
+            <img src="../assets/img/grunt.jpg" alt="illustration_grunt" width=50% height=30% />
+            <h3>GRUNT - Qu'est-ce que c'est ?</h3>
+            <p><strong>Grunt</strong> est un outil d’exécution de commandes en Javascript. Les intégrateurs web doivent minifier les fichiers avant mise en production, réduire le poids des images, concatener le code, etc. Eh bien Grunt est un task runner, c'est à dire qu'il effectue ces tâches pour vous.</p>
+            <p>Grunt fonctionne avec Node.js (cf -def: NPM):
+              <ul>
+                <li>Premièrement installer Grunt: <code>npm install -g grunt-cli</code></li>
+                <li>Contaténer les fichiers avec le plug-in: <code>npm install grunt-contrib-concat --save-dev</code></li>
+                <li>Minifier JavaScript avec le plug-in: <code>npm install grunt-contrib-uglify --save-dev</code></li>
+                <li>Optimisation des images avec le plug-in: <code>npm install grunt-contrib-imagemin --save-dev</code></li>
+                </p>
+            <p>Sources : <a href="https://la-cascade.io/grunt-pour-ceux-qui-pensent-que-grunt-est-complique/">La cascade</a></p>
         </article>
 
         <div id="h">H</div>
@@ -231,6 +294,13 @@
             <a href="https://fr.wikipedia.org/wiki/Not_invented_here">source: Wikipedia</a>
         </article>
 
+        <article class="lexique">
+          <h3 class="mot">NIH</h3>
+           <img src="img/nih.jpg" alt="NIH" />
+           <p>L'expression not invented here (littéralement « pas inventé ici » ou de manière développée « ce truc n'a pas été développé par nous ») désigne de manière péjorative l'attitude d'une entreprise ou une association qui re-développe en interne tout ou partie d'un logiciel ou d'interfaces déjà développés ailleurs.</p></br>
+           <a href="https://fr.wikipedia.org/wiki/Not_invented_here">source: Wikipedia</a>
+        </article>
+
         <div id="o">O</div>
         <div id="p">P</div>
         <div id="q">Q</div>
@@ -266,6 +336,14 @@
 
         <div id="s">S</div>
         <article class="lexique">
+            <h3>SaaS - software as a service</h3>
+            <img src="../assets/img/saas.jpg" alt="logiciel en tant que service" title="SaaS" />
+            <p>Le logiciel en tant que service ou software as a service (SaaS) est un modèle d'exploitation commerciale des logiciels dans lequel ceux-ci sont installés sur des serveurs distants plutôt que sur la machine de l'utilisateur. Les clients ne paient pas de licence d'utilisation pour une version, mais utilisent librement le service en ligne ou, plus généralement, payent un abonnement.</p>
+            <p>Historique :</p>
+            <p>Le terme SaaS (logiciel en tant que service) apparu en 2001, remplace les termes ASP (application service provider) ou encore « on demand », précédemment employés. Des domaines comme les solutions collaboratives et la communication d'entreprise sont maintenant largement adoptés en mode SaaS : partage d'agendas en ligne, outils de conférence à distance, services de gestion de contacts et de présence...</p>
+            <p>Sources : <a href="https://fr.wikipedia.org/wiki/Logiciel_en_tant_que_service" target="_blank">Wikipédia</a></p>
+           </article>
+
             <h3>SCRUM - ou l'apéro sans alcool.</h3>
             <img src="../assets/img/methode-scrum.jpg" alt="schema méthode scrum" title="Rester enfoncé pour zoomer" />
             <p>Scrum est une méthode intégrante à la méthode Agile. Scrum a 4 valeurs fondamentales : L’équipe , l’application, la collaboration, l’acceptation du changement. L’approche est de définir un besoin. Ce besoin peut être interne ou externe mais
@@ -301,7 +379,44 @@
             <p>Sources : <a href="https://fr.wikipedia.org/wiki/Optimisation_pour_les_moteurs_de_recherche">Wikipédia</a></p>
         </article>
 
+        <article class="lexique">
+          <h3>SOLID</h3>
+          <img src="../assets/img/SOLID.jpg" alt="schema solid">
+          <p>
+            SOLID est un acronyme représentant cinq principes de bases pour la programmation orientée objet, introduits par Michael Feathers et Robert C. Martin au début des années 2000. Ils sont censés apporter une ligne directrice permettant le développement de logiciel plus fiable et plus robuste. </p>
+
+          <p>En français : </p>
+          <ul>
+            <li><strong>Responsabilité unique (SingSubstitution de Liskov (Liskov substitution Principle):le Responsibility Principle):</strong> une classe, une fonction ou une méthode doit avoir une et une seule responsabilité</li> <br/>
+            <li><strong>Ouvert/fermé (Open/closed principle):</strong>une classe doit être ouverte à l'extension, mais fermée à la modification </li> <br/>
+            <li><strong>Substitution de Liskov (Liskov substitution Principle):</strong> une instance de type T doit pouvoir être remplacée par une instance de type G, tel que G sous-type de T, sans que cela ne modifie la cohérence du programme</li> <br/>
+            <li><strong>Ségrégation des interfaces (Interface segregation principle):</strong> préférer plusieurs interfaces spécifiques pour chaque client plutôt qu'une seule interface générale </li> <br/>
+            <li><strong>Inversion des dépendances (Dependency Inversion Principle):</strong> il faut dépendre des abstractions, pas des implémentations </li>
+          </ul>
+          <p>Source : <a target="_blank" href="https://fr.wikipedia.org/wiki/SOLID_(informatique)">Wikipédia</a></p>
+        </article>
+
+
         <div id="t">T</div>
+        <article class="lexique">
+            <h3>Le TDD</h3>
+              <img src="../assets/img/TDD.png" alt="TDD" title="TDD" />
+<p>Le test-driven development ou en français développement piloté par les tests est une technique de développement de logiciel qui préconise d'écrire les tests unitaires avant d'écrire le code source d'un logiciel.
+  Le cycle préconisé par TDD comporte cinq étapes :</p>
+   <ul>
+       <li>écrire un premier test ;</li>
+       <li>vérifier qu'il échoue (car le code qu'il teste n'existe pas), afin de vérifier que le test est valide;</li>
+       <li>écrire juste le code suffisant pour passer le test ;</li>
+       <li>vérifier que le test passe ;</li>
+       <li>puis réusiner le code, c'est-à-dire l'améliorer tout en gardant les mêmes fonctionnalités.</li>
+  </ul>
+  <p>Ces tests permettent aussi de préciser les spécifications du code, et donc son comportement ultérieur en fonction des situations auxquelles il sera exposé. Ce qui facilite la production d'un code valide en toutes circonstances. On obtient donc un code plus juste et plus fiable.En écrivant les tests d'abord, on utilise le programme avant même qu'il existe. On s'assure ainsi que le code produit est testable unitairement.
+  De plus, le fait d'avoir des tests augmente la confiance en soi du programmeur lors du réusinage du code : il sait qu'à un moment donné les tests ont réussi.
+  Le TDD est souvent associé, particulièrement dans la méthode XP, à la programmation en binôme. Pour expliquer les rôles des deux acteurs impliqués, il est généralement utilisé la métaphore du rallye automobile. Pour chaque fonctionnalité à réaliser, l'un des développeurs, nommé copilote, code le test. Ensuite, le pilote code la fonctionnalité elle-même. À chaque nouvelle fonctionnalité ajoutée, l'ensemble test-code ainsi réalisé sera de nouveau exécuté, réduisant ainsi au maximum le risque de régression.</p>
+
+     <p><a href="https://fr.wikipedia.org/wiki/Optimisation_pour_les_moteurs_de_recherche">Wikipédia</a></p>
+  </article>
+
         <div id="u">U</div>
         <div id="v">V</div>
         <div id="w">W</div>
