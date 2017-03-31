@@ -48,7 +48,7 @@
 
         <article class="lexique">
             <h3>APACHE</h3>
-            <img src="../assets/img/apacheLogo.png" alt="logo Apache HTTP Server" title="Rester enfoncé pour zoomer" />
+            <img src="../assets/img/Apache1.png" alt="logo Apache HTTP Server" title="Rester enfoncé pour zoomer" />
             <h3>Historique</h3>
             <p> Apache est apparu en avril 1995. Au début, il s'agissait d'une collection de correctifs et d'additions au serveur NCSA HTTPd 1.3, qui était dans le domaine public et le serveur HTTP alors le plus répandu. De cette origine, de nombreuses personnes
                 affirment que le nom Apache vient de a patchy server, soit « un serveur rafistolé ». Par la suite, Apache a été complètement réécrit, de sorte que, dans la version 2, il ne reste pas de trace de NCSA HTTPd.</p>
@@ -65,8 +65,83 @@
             <p>Sources : <a href="https://fr.wikipedia.org/wiki/Apache_HTTP_Server#Historique" target="_blank"> Wikipedia.fr</a></p>
         </article>
 
+
+
+
+
         <div id="b">B</div>
+        <article class="lexique">
+            <img src="../assets/img/bower.png" alt="logo Bower" title="Rester enfoncé pour zoomer" />
+            <h3>BOWER</h3>
+            <p><strong>Bower</strong> fait partie d'une panoplie de services de nouvelle génération destinés à automatiser un maximum de tâches à votre place. Le but de cet outil développé par l'équipe de Twitter est de gérer les dépendances de votre projet.</p>
+            <p> C'est quoi, une dépendance ? Lorsque vous débutez un nouveau projet, votre première tâche est de créer (ou de copier-coller) l'arborescence de vos fichiers et dossiers. Votre mission suivante est d'aller visiter un par un les outils incontournables
+                pour votre projet : jQuery, Modernizr, Bootstrap, etc. et d'installer les nouvelles versions de ces outils… ou alors de mettre à jour vos propres modules les uns après les autres. Avouez que vous gagneriez du temps à ne plus vous soucier
+                de ce genre de tâches répétitives quotidiennes. Eh bien figurez-vous que ça tombe bien : tous les outils tels que jQuery, Modernizr ou Bootstrap sont des dépendances que <strong>Bower</strong> va vous aider à installer en une ligne de
+                code !
+            </p>
+            <p> La liste des dépendances inscrites dans le registre de <strong>Bower</strong> est pour le moins impressionnante, et parmi lesquelles vous trouverez un bon nombre de célébrités :</p>
+            <ul>
+                <li>Twitter Bootstrap</li>
+                <li>jQuery</li>
+                <li>html5boilerplate</li>
+                <li>html5boilerplate</li>
+                <li>font-awesome</li>
+                <li>modernizr</li>
+                <li>html5shiv</li>
+                <li>normalize</li>
+                <li>jQuery mobile</li>
+                <li>grunt</li>
+                <li>purecss</li>
+                <li>respond</li>
+                <li>raphael</li>
+                <li>zepto</li>
+                <li>phonegap</li>
+                <li>yepnope</li>
+                <li>… knacss</li>
+            </ul>
+            <p> Deux pré-requis sont nécessaires au bon fonctionnement de <strong>Bower</strong> : Node.js (et son manager NPM, Node Packaged Modules) et Git.</p>
+            <p> Bien que pratique et rapide, <strong>Bower</strong> n'en demeure pas moins un "simple" gestionnaire de dépendances : il n'est pas prévu pour construire des dossiers de projets complets, ni pour concaténer ou minifier des ressources. Pour ce
+                genre d'aspirations, et pour aller plus loin, il vous faudra lorgner du côté d'autres outils tels que Yeoman ou Grunt.</p>
+            <p>Source:
+                <a href="https://www.alsacreations.com/tuto/lire/1609-bower-pour-les-nuls.html">AlsaCréations</a>
+            </p>
+
+
+
+
+
+
+
+
+
+        </article>
         <div id="c">C</div>
+
+        <article class="lexique">
+            <img src="../assets/img/crud.png" alt="illustration_crud" width=50% height=30% />
+            <h3>CRUD - Qu'est-ce que c'est ?</h3>
+            <p>L'acronyme informatique anglais<strong>CRUD</strong>(pour create, read, update, delete) (parfois appelé SCRUD avec un "S" pour search) désigne les quatre opérations de base pour la persistance des données, en particulier le stockage d'informations en base de données.</p>
+            <p>Plus généralement, il désigne les opérations permettant la gestion d'une collection d'éléments.
+			Ce terme est aussi un jeu de mot en anglais sur l'adjectif crude (en français brut ou rudimentaire).
+			Voir aussi les noms REST, RESTful et HATEOAS.</p>
+            <p>Soit :</p>
+              <ul>
+                <li>Create : créer</li>
+                <li>Read   : lire</li>
+                <li>Update : mettre à jour</li>
+                <li>Delete : supprimer</li>
+                </ul>
+			<h3>Utilisation dans les interfaces logicielles :</h3>
+			<p>Par exemple, une application carnet d'adresse dont l'élément le plus simple est un contact, doit permettre à l'utilisateur de :</p>
+			<ul>
+			    <li>Créer des contacts</li>
+			    <li>Lire un contact (liste, zone de recherche…)</li>
+			    <li>Mettre à jour un contact</li>
+			    <li>Supprimer un contact</li>
+			<p>Si l'une ou l'autre de ces opérations fondamentales manque, le logiciel sera considéré comme incomplet.</p>
+            <p>Sources : <a href="https://fr.wikipedia.org/wiki/CRUD">Wikipedia</a></p>
+        </article>
+
         <article class="lexique">
             <img src="../assets/img/CSS.png" alt="schema css" title="Rester enfoncé pour zoomer" />
             <div class="corpus">
@@ -121,6 +196,46 @@
             <p>Sources : <a href="http://igm.univ-mlv.fr/~dr/XPOSE2011/foucault/">Mini-site Foucault</a></p>
         </article>
 
+        <article class="lexique">
+            <img src="../assets/img/grunt.jpg" alt="illustration_grunt" width=50% height=30% />
+            <h3>GRUNT - Qu'est-ce que c'est ?</h3>
+            <p><strong>Grunt</strong> est un outil d’exécution de commandes en Javascript. Les intégrateurs web doivent minifier les fichiers avant mise en production, réduire le poids des images, concatener le code, etc. Eh bien Grunt est un task runner, c'est à dire qu'il effectue ces tâches pour vous.</p>
+            <p>Grunt fonctionne avec Node.js (cf -def: NPM):
+              <ul>
+                <li>Premièrement installer Grunt: <code>npm install -g grunt-cli</code></li>
+                <li>Contaténer les fichiers avec le plug-in: <code>npm install grunt-contrib-concat --save-dev</code></li>
+                <li>Minifier JavaScript avec le plug-in: <code>npm install grunt-contrib-uglify --save-dev</code></li>
+                <li>Optimisation des images avec le plug-in: <code>npm install grunt-contrib-imagemin --save-dev</code></li>
+                </p>
+            <p>Sources : <a href="https://la-cascade.io/grunt-pour-ceux-qui-pensent-que-grunt-est-complique/">La cascade</a></p>
+        </article>
+
+        <article class="lexique">
+            <img src="../assets/img/gulp2.jpg" alt="image gulp" width=50% height=30% />
+            <h3>Gulp !</h3>
+            <p><strong>Gulp</strong> est un "Automatiseur de tâches", un task runner comme disent nos amis anglophones, c'est à dire qu'il est capable de lancer des bouts de scripts à votre place tout seul comme un grand.</br></br>
+            Ces tâches dépendent de votre bon vouloir et peuvent être très variées :</p>
+            <ul>
+                <li>Des opérations simples telles que minifier ou concaténer du CSS ou du JavaScript,</li>
+                <li>La création ou la suppression de dossiers ou de fichiers (possibilité de créer un projet à partir de zéro),</li>
+                <li>L'optimisation, la compression d'images,</li>
+                <li>La création de serveur local permettant de tester sur de multiples périphériques en même temps,</li>
+                <li>La simulation de navigateurs fantômes conçus pour parcourir et tester les regressions d'affichage d'une page,</li>
+                <li>Etc...</li>
+            </ul>
+            <h4>T'as une tâche là !</h4>
+            <p>Pour vous représenter le nombre d'actions réalisables par Gulp, sachez que les quelques 2000 plugins recensés représentent tout autant de tâches exécutables au sein de votre projet.</p>
+
+            <p>En clair, intégré à votre environnement de travail, Gulp va vous permettre d'économiser énormément de temps en se chargeant de toutes les tâches répétitives et automatisables. Vous n'aurez plus qu'à vous concentrer sur votre vrai travail : produire du code propre et fonctionnel, et prendre un café de temps en temps.
+            Les pré-requis de Gulp.</br></br>
+            Pour accomplir vos premiers exploits avec Gulp, vous n'aurez besoin que de :</p>
+            <ul>
+              <li>Node.js</li>
+              <li>Ne pas être trop allergique à la ligne de commande</li>
+            </ul>
+          <p>Sources : <a href="https://www.alsacreations.com/tuto/lire/1686-introduction-a-gulp.html">Lien pour plus de détails</a></p>
+
+
         <div id="h">H</div>
         <article class="lexique">
             <h3>HTML</h3>
@@ -142,6 +257,30 @@
         </article>
 
         <div id="i">I</div>
+                              <article class="lexique">
+                                  <img src="../assets/img/ic.png" alt="logo ci" title="Rester enfoncé pour zoomer" />
+                                  <h3>CI: Intégration continue</h3>
+                                  <h3>Definition</h3>
+                                  <p>L'intégration continue est un ensemble de pratiques utilisées en génie logiciel consistant à vérifier à chaque modification de code source que le résultat des modifications ne produit pas de régression dans l'application développée. Le concept a pour la première fois été mentionné par Grady Booch1 et se réfère généralement à la pratique de l'extreme programming. Le principal but de cette pratique est de détecter les problèmes d'intégration au plus tôt lors du développement. De plus, elle permet d'automatiser l'exécution des suites de tests et de voir l'évolution du développement du logiciel.</p>
+                      <p>L'intégration continue est de plus en plus utilisée en entreprise afin d'améliorer la qualité du code et du produit final.</p>
+                      <h3>Intérêt</h3>
+                      <p>L'intégration continue repose souvent sur la mise en place d'une brique logicielle permettant l'automatisation de tâches : compilation, tests unitaires et fonctionnels, validation produit, tests de performances… À chaque changement du code, cette brique logicielle va exécuter un ensemble de tâches et produire un ensemble de résultats, que le développeur peut par la suite consulter. Cette intégration permet ainsi de ne pas oublier d'éléments lors de la mise en production et donc ainsi améliorer la qualité du produit</p>
+                      <p>Pour appliquer cette technique, il faut d'abord que :</p>
+                      <ul>
+                      <li>le code source soit partagé (en utilisant des logiciels de gestion de versions tels que CVS, Subversion, git, Mercurial, etc.)</li>
+                      <li>les développeurs intègrent (commit) quotidiennement (au moins) leurs modifications.</li>
+                      <li>des tests d'intégration soient développés pour valider l'application (avec JUnit par exemple).</li>
+                      </ul>
+                      <p>Un outil d'intégration continue est ensuite nécessaire, tel que TeamCity, CruiseControl ou Jenkins (fork de Hudson) pour le langage Java par exemple. D'autres outils, comme SonarQube ou Jacoco, peuvent être mis en place afin de superviser la qualité du code.</p>
+                      <p>Les principaux avantages d'une telle technique de développement sont :</p>
+                      <ul>
+                      <li>le test immédiat des modifications</li>
+                      <li>la notification rapide en cas de code incompatible ou manquant</li>
+                      <li>les problèmes d'intégration sont détectés et réparés de façon continue, évitant les problèmes de dernière minute.</li>
+                      <li>une version est toujours disponible pour un test, une démonstration ou une distribution.</li>
+                      </ul>
+                      <p>Sources : <a href="https://fr.wikipedia.org/wiki/Int%C3%A9gration_continue" title="wikipedia" target="_blank">Wikipedia.org</a></p>
+                      </article>
         <div id="j">J</div>
         <div id="k">K</div>
         <article class="lexique">
@@ -221,6 +360,15 @@
                 <p>wikipedia</p>
             </a>
         </article>
+        <article class="lexique">
+          <h3>MBaas</h3>
+          <img src="../assets/img/basse.jpg" alt="guitare basse">
+          <h4>"Mobile backend as a service" ou "solution de back-end mobile à la demande"</h4><br/>
+          <p>C'est une architecture informatique hébergée dans le Cloud qui offre aux applications mobiles un accès à des dispositifs de stockage, à des bases de données et à d’autres ressources dont elles peuvent avoir besoin pour fonctionner.</p><br/>
+          <p>Cette approche de type PaaS a recours à des API et à des kits de développement logiciel (SDK) pour relier les applications mobiles au back-end Cloud.</p><br/>
+          <p>Une solution MBaaS peut servir à assurer des fonctions courantes, telles que la transmission des notifications, l'intégration à des réseaux sociaux ou les services de géolocalisation. Cette approche s'écarte du développement d'applications mobiles classique, qui oblige les développeurs à intégrer individuellement les API de chaque service dont l’app a besoin.</p><br/>
+          <p>Le modèle MBaaS permet également aux développeurs d'applications mobiles de s'abstraire complètement de l'infrastructure côté serveur inhérente à tout back-end. Il leur suffit d'assembler les constituants essentiels requis et d'écrire le code permettant de les relier entre eux. Ils peuvent alors se consacrer pleinement au développement d'expériences utilisateur au lieu de se préoccuper des questions d’infrastructure sous-jacente.</p>
+        </article>
 
         <div id="n">N</div>
         <article class="lexique">
@@ -231,8 +379,36 @@
             <a href="https://fr.wikipedia.org/wiki/Not_invented_here">source: Wikipedia</a>
         </article>
 
+        <article class="lexique">
+          <h3>NPM: The Node Package Manager</h3>
+          <img src="../assets/img/npm_on-site_logo_large.png" alt="NPM">
+          <p>NPM est le gestionnaire de paquets officiel de Node.js. Depuis la version 0.6.3 de Node.js, NPM fait partie de l'environnement et est donc automatiquement installé par défaut3. NPM fonctionne avec un terminal et gère les dépendances pour une application. Il permet également d'installer des applications Node.js disponibles sur le dépôt NPM.</p>
+          <p>Exemple: <code>$ npm install bootstrap@3</code></p>
+          <p>Source: <a href="https://fr.wikipedia.org/wiki/Npm">wikipedia</A></p>
+        </article>
+
+
         <div id="o">O</div>
         <div id="p">P</div>
+        <article class="lexique">
+            <img src=../assets/img/php.jpeg alt="PSR"height=50%/>
+            <h3>PSR</h3>
+            <p>Les PSR (pour « Propose a Standards Recommendation ») sont des recommandations validées par le PHP Framework Interoperability Group, ayant pour objectif d’améliorer l’interopérabilité entre les frameworks PHP, et plus généralement entre les développeurs PHP. Il ne s’agit aucunement de normes ou de standards établis mais de recommandations qui tendent à le devenir. D’un sens, les PSR sont similaires aux RFC (Request For Comment) qui régulent désormais le monde des réseaux.
+
+            A ce jour, les recommandations PSR validées sont aux nombres de 4 :
+
+                PSR-0 : qui traite du chargement des classes PHP et de l’autoloading ;
+                PSR-1 : qui fixe les conventions minimales de codage ;
+                PSR-2 : qui défini le style et l’organisation du code ;
+                PSR-3 : qui s’occupe de l’interface des loggers.
+
+            Ces recommandations font débat dans la communauté. Vous pouvez lire du contre par là et par là. L’une des raisons est que ces recommandations qui, à la base, doivent traiter de l’interopérabilité entre frameworks PHP traitent naturellement de sujets sensibles, tels que les conventions de codage qui restent très subjectives. Reste que la démarche est intéressante et qu’il est toujours bon d’aller dans le sens d’une harmonisation des méthodes de développements.
+
+            Si vous souhaitez contribuer aux recommandations PSR ou simplement connaitre l’avancement des débats, vous pourrez trouver de l’information sur Google group :</p>
+            <a href="https://groups.google.com/forum/?fromgroups=#!forum/php-fig.">Lien pour contribution</a>
+            <p>Vous pouvez également consulter le github qui regroupe les recommandations, celles en débat ainsi que des infos utiles sur le FIG : </p>
+            <a href="https://github.com/php-fig/fig-standards">Lien vers le github</a>
+
         <div id="q">Q</div>
         <div id="r">R</div>
 
@@ -320,7 +496,44 @@
             <p>Sources : <a href="https://fr.wikipedia.org/wiki/Optimisation_pour_les_moteurs_de_recherche">Wikipédia</a></p>
         </article>
 
+        <article class="lexique">
+          <h3>SOLID</h3>
+          <img src="../assets/img/SOLID.jpg" alt="schema solid">
+          <p>
+            SOLID est un acronyme représentant cinq principes de bases pour la programmation orientée objet, introduits par Michael Feathers et Robert C. Martin au début des années 2000. Ils sont censés apporter une ligne directrice permettant le développement de logiciel plus fiable et plus robuste. </p>
+
+          <p>En français : </p>
+          <ul>
+            <li><strong>Responsabilité unique (SingSubstitution de Liskov (Liskov substitution Principle):le Responsibility Principle):</strong> une classe, une fonction ou une méthode doit avoir une et une seule responsabilité</li> <br/>
+            <li><strong>Ouvert/fermé (Open/closed principle):</strong>une classe doit être ouverte à l'extension, mais fermée à la modification </li> <br/>
+            <li><strong>Substitution de Liskov (Liskov substitution Principle):</strong> une instance de type T doit pouvoir être remplacée par une instance de type G, tel que G sous-type de T, sans que cela ne modifie la cohérence du programme</li> <br/>
+            <li><strong>Ségrégation des interfaces (Interface segregation principle):</strong> préférer plusieurs interfaces spécifiques pour chaque client plutôt qu'une seule interface générale </li> <br/>
+            <li><strong>Inversion des dépendances (Dependency Inversion Principle):</strong> il faut dépendre des abstractions, pas des implémentations </li>
+          </ul>
+          <p>Source : <a target="_blank" href="https://fr.wikipedia.org/wiki/SOLID_(informatique)">Wikipédia</a></p>
+        </article>
+
+
         <div id="t">T</div>
+        <article class="lexique">
+            <h3>Le TDD</h3>
+              <img src="../assets/img/TDD.png" alt="TDD" title="TDD" />
+<p>Le test-driven development ou en français développement piloté par les tests est une technique de développement de logiciel qui préconise d'écrire les tests unitaires avant d'écrire le code source d'un logiciel.
+  Le cycle préconisé par TDD comporte cinq étapes :</p>
+   <ul>
+       <li>écrire un premier test ;</li>
+       <li>vérifier qu'il échoue (car le code qu'il teste n'existe pas), afin de vérifier que le test est valide;</li>
+       <li>écrire juste le code suffisant pour passer le test ;</li>
+       <li>vérifier que le test passe ;</li>
+       <li>puis réusiner le code, c'est-à-dire l'améliorer tout en gardant les mêmes fonctionnalités.</li>
+  </ul>
+  <p>Ces tests permettent aussi de préciser les spécifications du code, et donc son comportement ultérieur en fonction des situations auxquelles il sera exposé. Ce qui facilite la production d'un code valide en toutes circonstances. On obtient donc un code plus juste et plus fiable.En écrivant les tests d'abord, on utilise le programme avant même qu'il existe. On s'assure ainsi que le code produit est testable unitairement.
+  De plus, le fait d'avoir des tests augmente la confiance en soi du programmeur lors du réusinage du code : il sait qu'à un moment donné les tests ont réussi.
+  Le TDD est souvent associé, particulièrement dans la méthode XP, à la programmation en binôme. Pour expliquer les rôles des deux acteurs impliqués, il est généralement utilisé la métaphore du rallye automobile. Pour chaque fonctionnalité à réaliser, l'un des développeurs, nommé copilote, code le test. Ensuite, le pilote code la fonctionnalité elle-même. À chaque nouvelle fonctionnalité ajoutée, l'ensemble test-code ainsi réalisé sera de nouveau exécuté, réduisant ainsi au maximum le risque de régression.</p>
+
+     <p><a href="https://fr.wikipedia.org/wiki/Optimisation_pour_les_moteurs_de_recherche">Wikipédia</a></p>
+  </article>
+
         <div id="u">U</div>
         <div id="v">V</div>
         <div id="w">W</div>
