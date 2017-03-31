@@ -83,13 +83,12 @@
             <ul>
                 <li>Twitter Bootstrap</li>
                 <li>jQuery</li>
-                <li>html5boilerplate</li>
+                <li>jQuery mobile</li>
                 <li>html5boilerplate</li>
                 <li>font-awesome</li>
                 <li>modernizr</li>
                 <li>html5shiv</li>
                 <li>normalize</li>
-                <li>jQuery mobile</li>
                 <li>grunt</li>
                 <li>purecss</li>
                 <li>respond</li>
@@ -116,6 +115,31 @@
 
         </article>
         <div id="c">C</div>
+
+        <article class="lexique">
+            <img src="../assets/img/crud.png" alt="illustration_crud" width=50% height=30% />
+            <h3>CRUD - Qu'est-ce que c'est ?</h3>
+            <p>L'acronyme informatique anglais<strong>CRUD</strong>(pour create, read, update, delete) (parfois appelé SCRUD avec un "S" pour search) désigne les quatre opérations de base pour la persistance des données, en particulier le stockage d'informations
+                en base de données.</p>
+            <p>Plus généralement, il désigne les opérations permettant la gestion d'une collection d'éléments. Ce terme est aussi un jeu de mot en anglais sur l'adjectif crude (en français brut ou rudimentaire). Voir aussi les noms REST, RESTful et HATEOAS.</p>
+            <p>Soit :</p>
+            <ul>
+                <li>Create : créer</li>
+                <li>Read : lire</li>
+                <li>Update : mettre à jour</li>
+                <li>Delete : supprimer</li>
+            </ul>
+            <h3>Utilisation dans les interfaces logicielles :</h3>
+            <p>Par exemple, une application carnet d'adresse dont l'élément le plus simple est un contact, doit permettre à l'utilisateur de :</p>
+            <ul>
+                <li>Créer des contacts</li>
+                <li>Lire un contact (liste, zone de recherche…)</li>
+                <li>Mettre à jour un contact</li>
+                <li>Supprimer un contact</li>
+                <p>Si l'une ou l'autre de ces opérations fondamentales manque, le logiciel sera considéré comme incomplet.</p>
+                <p>Sources : <a href="https://fr.wikipedia.org/wiki/CRUD">Wikipedia</a></p>
+        </article>
+
         <article class="lexique">
             <img src="../assets/img/CSS.png" alt="schema css" title="Rester enfoncé pour zoomer" />
             <div class="corpus">
@@ -173,22 +197,24 @@
         <article class="lexique">
             <img src="../assets/img/grunt.jpg" alt="illustration_grunt" width=50% height=30% />
             <h3>GRUNT - Qu'est-ce que c'est ?</h3>
-            <p><strong>Grunt</strong> est un outil d’exécution de commandes en Javascript. Les intégrateurs web doivent minifier les fichiers avant mise en production, réduire le poids des images, concatener le code, etc. Eh bien Grunt est un task runner, c'est à dire qu'il effectue ces tâches pour vous.</p>
+            <p><strong>Grunt</strong> est un outil d’exécution de commandes en Javascript. Les intégrateurs web doivent minifier les fichiers avant mise en production, réduire le poids des images, concatener le code, etc. Eh bien Grunt est un task runner,
+                c'est à dire qu'il effectue ces tâches pour vous.</p>
             <p>Grunt fonctionne avec Node.js (cf -def: NPM):
-              <ul>
-                <li>Premièrement installer Grunt: <code>npm install -g grunt-cli</code></li>
-                <li>Contaténer les fichiers avec le plug-in: <code>npm install grunt-contrib-concat --save-dev</code></li>
-                <li>Minifier JavaScript avec le plug-in: <code>npm install grunt-contrib-uglify --save-dev</code></li>
-                <li>Optimisation des images avec le plug-in: <code>npm install grunt-contrib-imagemin --save-dev</code></li>
-                </p>
+                <ul>
+                    <li>Premièrement installer Grunt: <code>npm install -g grunt-cli</code></li>
+                    <li>Contaténer les fichiers avec le plug-in: <code>npm install grunt-contrib-concat --save-dev</code></li>
+                    <li>Minifier JavaScript avec le plug-in: <code>npm install grunt-contrib-uglify --save-dev</code></li>
+                    <li>Optimisation des images avec le plug-in: <code>npm install grunt-contrib-imagemin --save-dev</code></li>
+            </p>
             <p>Sources : <a href="https://la-cascade.io/grunt-pour-ceux-qui-pensent-que-grunt-est-complique/">La cascade</a></p>
         </article>
 
         <article class="lexique">
             <img src="../assets/img/gulp2.jpg" alt="image gulp" width=50% height=30% />
             <h3>Gulp !</h3>
-            <p><strong>Gulp</strong> est un "Automatiseur de tâches", un task runner comme disent nos amis anglophones, c'est à dire qu'il est capable de lancer des bouts de scripts à votre place tout seul comme un grand.</br></br>
-            Ces tâches dépendent de votre bon vouloir et peuvent être très variées :</p>
+            <p><strong>Gulp</strong> est un "Automatiseur de tâches", un task runner comme disent nos amis anglophones, c'est à dire qu'il est capable de lancer des bouts de scripts à votre place tout seul comme un grand.</br>
+                </br>
+                Ces tâches dépendent de votre bon vouloir et peuvent être très variées :</p>
             <ul>
                 <li>Des opérations simples telles que minifier ou concaténer du CSS ou du JavaScript,</li>
                 <li>La création ou la suppression de dossiers ou de fichiers (possibilité de créer un projet à partir de zéro),</li>
@@ -200,27 +226,290 @@
             <h4>T'as une tâche là !</h4>
             <p>Pour vous représenter le nombre d'actions réalisables par Gulp, sachez que les quelques 2000 plugins recensés représentent tout autant de tâches exécutables au sein de votre projet.</p>
 
-            <p>En clair, intégré à votre environnement de travail, Gulp va vous permettre d'économiser énormément de temps en se chargeant de toutes les tâches répétitives et automatisables. Vous n'aurez plus qu'à vous concentrer sur votre vrai travail : produire du code propre et fonctionnel, et prendre un café de temps en temps.
-            Les pré-requis de Gulp.</br></br>
-            Pour accomplir vos premiers exploits avec Gulp, vous n'aurez besoin que de :</p>
+            <p>En clair, intégré à votre environnement de travail, Gulp va vous permettre d'économiser énormément de temps en se chargeant de toutes les tâches répétitives et automatisables. Vous n'aurez plus qu'à vous concentrer sur votre vrai travail :
+                produire du code propre et fonctionnel, et prendre un café de temps en temps. Les pré-requis de Gulp.</br>
+                </br>
+                Pour accomplir vos premiers exploits avec Gulp, vous n'aurez besoin que de :</p>
             <ul>
-              <li>Node.js</li>
-              <li>Ne pas être trop allergique à la ligne de commande</li>
+                <li>Node.js</li>
+                <li>Ne pas être trop allergique à la ligne de commande</li>
             </ul>
-          <p>Sources : <a href="https://www.alsacreations.com/tuto/lire/1686-introduction-a-gulp.html">Lien pour plus de détails</a></p>
+            <p>Sources : <a href="https://www.alsacreations.com/tuto/lire/1686-introduction-a-gulp.html">Lien pour plus de détails</a></p>
 
 
-        <div id="h">H</div>
-        <article class="lexique">
-            <h3>HTML</h3>
-            <img id="imghtml" src="../assets/img/html.jpg" alt="HTML">
-            <p>L’HyperText Markup Language, généralement abrégé HTML, est le format de données conçu pour représenter les pages web. C’est un langage de balisage permettant d’écrire de l’hypertexte, d’où son nom. HTML permet également de structurer sémantiquement
-                et logiquement et de mettre en forme le contenu des pages, d’inclure des ressources multimédias dont des images, des formulaires de saisie, et des programmes informatiques. Il permet de créer des documents interopérables avec des équipements
-                très variés de manière conforme aux exigences de l’accessibilité du web. Il est souvent utilisé conjointement avec des langages de programmation (JavaScript, Java, Swift) et des formats de présentation (feuilles de style en cascade). HTML
-                est initialement dérivé du Standard Generalized Markup Language (SGML).</p>
+            <div id="h">H</div>
+            <article class="lexique">
+                <h3>HTML</h3>
+                <img id="imghtml" src="../assets/img/html.jpg" alt="HTML">
+                <p>L’HyperText Markup Language, généralement abrégé HTML, est le format de données conçu pour représenter les pages web. C’est un langage de balisage permettant d’écrire de l’hypertexte, d’où son nom. HTML permet également de structurer sémantiquement
+                    et logiquement et de mettre en forme le contenu des pages, d’inclure des ressources multimédias dont des images, des formulaires de saisie, et des programmes informatiques. Il permet de créer des documents interopérables avec des équipements
+                    très variés de manière conforme aux exigences de l’accessibilité du web. Il est souvent utilisé conjointement avec des langages de programmation (JavaScript, Java, Swift) et des formats de présentation (feuilles de style en cascade).
+                    HTML est initialement dérivé du Standard Generalized Markup Language (SGML).</p>
 
-            <p>L'HTML a vu le jour en 1989. Ce langage n'a cessé de s'améliorer à travers diverses versions jusqu'en 2007 avec le HTML5. L'objectif de cette dernière version était de :
+                <p>L'HTML a vu le jour en 1989. Ce langage n'a cessé de s'améliorer à travers diverses versions jusqu'en 2007 avec le HTML5. L'objectif de cette dernière version était de :
+                    <p>
+                        <ul>
+                            <li>faire évoluer HTML pour décrire la sémantique des documents mais aussi les applications en ligne ;</li>
+                            <li>arvenir à un langage extensible via XML tout en maintenant une version non XML compatible avec les analyseurs syntaxiques (parsers) HTML des navigateurs actuels ;</li>
+                            <li>enrichir les interfaces utilisateurs avec des contrôles spécifiques : barres de progrès, menus, champs associés à des types de données spécifiques.</li>
+                        </ul>
+
+                        <p>Sources Wikipédia : <a href="https://fr.wikipedia.org/wiki/Hypertext_Markup_Language#1993_:_Apports_de_NCSA_Mosaic">HTML</a></p>
+            </article>
+
+            <div id="i">I</div>
+            <article class="lexique">
+                <img src="../assets/img/ic.png" alt="logo ci" title="Rester enfoncé pour zoomer" />
+                <h3>CI: Intégration continue</h3>
+                <h3>Definition</h3>
+                <p>L'intégration continue est un ensemble de pratiques utilisées en génie logiciel consistant à vérifier à chaque modification de code source que le résultat des modifications ne produit pas de régression dans l'application développée. Le
+                    concept a pour la première fois été mentionné par Grady Booch1 et se réfère généralement à la pratique de l'extreme programming. Le principal but de cette pratique est de détecter les problèmes d'intégration au plus tôt lors du développement.
+                    De plus, elle permet d'automatiser l'exécution des suites de tests et de voir l'évolution du développement du logiciel.</p>
+                <p>L'intégration continue est de plus en plus utilisée en entreprise afin d'améliorer la qualité du code et du produit final.</p>
+                <h3>Intérêt</h3>
+                <p>L'intégration continue repose souvent sur la mise en place d'une brique logicielle permettant l'automatisation de tâches : compilation, tests unitaires et fonctionnels, validation produit, tests de performances… À chaque changement du
+                    code, cette brique logicielle va exécuter un ensemble de tâches et produire un ensemble de résultats, que le développeur peut par la suite consulter. Cette intégration permet ainsi de ne pas oublier d'éléments lors de la mise en production
+                    et donc ainsi améliorer la qualité du produit</p>
+                <p>Pour appliquer cette technique, il faut d'abord que :</p>
+                <ul>
+                    <li>le code source soit partagé (en utilisant des logiciels de gestion de versions tels que CVS, Subversion, git, Mercurial, etc.)</li>
+                    <li>les développeurs intègrent (commit) quotidiennement (au moins) leurs modifications.</li>
+                    <li>des tests d'intégration soient développés pour valider l'application (avec JUnit par exemple).</li>
+                </ul>
+                <p>Un outil d'intégration continue est ensuite nécessaire, tel que TeamCity, CruiseControl ou Jenkins (fork de Hudson) pour le langage Java par exemple. D'autres outils, comme SonarQube ou Jacoco, peuvent être mis en place afin de superviser
+                    la qualité du code.</p>
+                <p>Les principaux avantages d'une telle technique de développement sont :</p>
+                <ul>
+                    <li>le test immédiat des modifications</li>
+                    <li>la notification rapide en cas de code incompatible ou manquant</li>
+                    <li>les problèmes d'intégration sont détectés et réparés de façon continue, évitant les problèmes de dernière minute.</li>
+                    <li>une version est toujours disponible pour un test, une démonstration ou une distribution.</li>
+                </ul>
+                <p>Sources : <a href="https://fr.wikipedia.org/wiki/Int%C3%A9gration_continue" title="wikipedia" target="_blank">Wikipedia.org</a></p>
+            </article>
+            <div id="j">J</div>
+            <div id="k">K</div>
+            <article class="lexique">
+                <img src="../assets/img/kiss.jpg" alt="groupe kiss" title=" i wanna rock and roll all night !!">
+                <div class="corpus">
+                    <h3>Kiss :</h3>
+                    <p>NON ce n'est pas le célèbre groupe de rock des années 70, kiss est une abreviation pour "<span>Keep It Stupid Simple</span>" ou "<span>Keep It Simple, Stupid..</span>"<br/><br/> Qu'est-ce que ça veut dire ? littéralement, comprenez
+                        mot à mot : « garde ça simple, idiot », dans le sens de « ne complique pas les choses »<br/><br/> Ce principe à été un élement clef, et un énorme succès dans le domaine de l'ingénierie logicielle. Un problème courant chez les ingénieurs
+                        et développeurs de logiciels aujourd'hui, c'est qu'ils ont tendance à compliquer les problèmes.<br/><br/> En règle générale, lorsqu'un développeur est confronté à un problème, il le décompose en plus petits morceaux qu'il pense
+                        comprendre, puis tente de mettre en œuvre la solution dans le code. Je dirais que 8 ou 9 sur 10 développeurs font l'erreur qu'ils ne décomposent pas le problème en assez petit ou compréhensible morceaux. Cela a pour résultat des
+                        implémentations très complexes même des problèmes les plus simples, un autre effet secondaire est le code "spagetthi", quelque chose que nous pensons que seul BASIC pourait faire avec ses déclarations goto, mais en Java cela donne
+                        des classes de 500 à 1000 lignes de code, dont chaque méthodes a plusieurs centaines de lignes..<br/><br/> Ce désordre de code resulte des cas d'exception à sa solution originale que met en place le dévelopeur pendant qu'il écrit
+                        dans son code. Ces cas d'exception auraient été résolu si le développeur avait décomposé le problème plus tôt.</p>
+                    <p>Sources : <a href="https://fr.wikipedia.org/wiki/Principe_KISS" target="_blank">glossaire.infowebmaster</a>.</p>
+                </div>
+            </article>
+
+            <div id="l">L</div>
+            <article class="lexique">
+                <h3>Linux</h3>
+                <img src="../assets/img/logo_linux.jpg" alt="Logo Linux" />
+                <p>Linux est un système d'exploitation complet et libre, qui peut être utilisé en lieu et place de systèmes d'exploitation commercialisés, tels que Windows, de Microsoft. Il est accompagné de nombreux logiciels libres complémentaires, offrant
+                    un système complet aux utilisateurs.</p>
+                <p>Source: <a href=http://www.mosaique-info.fr/glossaire-web-referencement-infographie-multimedia-informatique/l-glossaire-informatique-et-multimedia/425-linux-definition.html>Mosaïque Linux</a> </p>
+
+                <h3>Ubuntu</h3>
+                <p>Ubuntu (prononciation [u.bun.tu], « ou-boun-tou » en français) est un système d'exploitation open source basé sur la distribution Linux Debian. Son nom provient d'un ancien mot bantou qui signifie « je suis ce que je suis grâce à ce que
+                    nous sommes tous ».</p>
+                <p>Source: <a href=https://fr.wikipedia.org/wiki/Ubunt>Wikipédia Ubuntu</a> </p>
+
+                <p>LTS signifie Long Term Support, ou support à long terme. certaines versions d'Ubuntu sont estampillées LTS. Ces versions, publiées tous les deux ans au mois d'avril, sont soutenues pour une durée prolongée de 60 mois (5 ans) pour les postes
+                    de travail et les serveurs. </p>
+                <div id="sourceLts">
+                    <p>Source: <a href=https://doc.ubuntu-fr.org/lts>Ubuntu-fr Ubuntu LTS</a></p>
+                </div>
+            </article>
+
+            <div id="m">M</div>
+            <article class="lexique">
+                <h3>Un Mock-up, qu'est-ce que c'est ?</h3>
+                <img src="../assets/img/image13.png" alt="image13.png" />
+                <p>Un mockup est un terme informatique, et même un terme de design, qui désigne une maquette d'une interface utilisateur. Cette maquette se veut volontairement simpliste pour se fier principalement sur les fonctionnalités que sur l'aspect
+                    esthétique final.
+                </p>
+                <h3>Présentation:</h3>
+                <p>Un mockup représente un squelette d'une interface utilisateur. Ce squelette est en noir et blanc et à principalement pour but de montrer sur papier (ou sur ordinateur) où seront placé les éléments sur l'interface et comment fonctionnera
+                    l’interaction entre eux (bouton d'action, zone de texte, élément interactif ...).
+                </p>
+                <h3>Avantages:</h3>
+                <p>Un mockup est une bonne méthode durant la phase de conception d'un site web, d'un logiciel ou de tout autre interface pour les raisons suivantes:</p>
+                <ul>
+                    <li>Possibilité de montrer l'aperçu de l'interface à des collaborateurs</li>
+                    <li>Constater un problème de placement, de taille des éléments ou même une impossibilité technique</li>
+                    <li>Déplacer facilement un élément pour améliorer l'interface (expérience utilisateur, ergonomie ...)</li>
+                    <li>Mieux estimer la complexité d'une interface et donc meilleure estimation du temps de conception</li>
+                    <li>Modification rapide de l'interface avant même que les graphistes ou les développeurs n'ai commencé à travailler. Une modification en amont est plus rapide que pendant la phase d'intégration ou de développement.</li>
+                </ul>
+                <p>Sources : <a href="http://glossaire.infowebmaster.fr/mockup/" target="_blank">Infos webmaster</a></p>
+            </article>
+
+            <article class="lexique">
+                <h3>MoSCoW</h3>
+                <img src="../assets/img/place-rouge_small.png" alt="place rouge" />
+                <p>La méthode de priorisation MoSCoW permet au porteur de projet et à l’équipe de réalisation de s’accorder sur l’importance des tâches à réaliser par rapport aux délais prévus. Cette méthode est proposée dans le framework de gestion de projet
+                    framework DSDM, et est simplement un moyen mnémotechnique pour se souvenir de 4 degrés de priorité différents.</p>
+                <ul>
+                    <li>M</li>
+                    <p>MUST : DOIT être fait</p>
+                    <li>S</li>
+                    <p>SHOULD : DEVRAIT être fait dans la mesure du possible</p>
+                    <li>C</li>
+                    <p>COULD : POURRAIT être fait dans la mesure où cela n’a pas d’impact sur les autres tâches</p>
+                    <li>V</li>
+                    <p>WON’T : NE SERA PAS fait cette fois mais sera fait plus tard</p>
+                </ul>
+                <a href="https://fr.wikipedia.org/wiki/M%C3%A9thode_MoSCoW">
+                    <p>wikipedia</p>
+                </a>
+            </article>
+            <article class="lexique">
+                <h3>MBaas</h3>
+                <img src="../assets/img/basse.jpg" alt="guitare basse">
+                <h4>"Mobile backend as a service" ou "solution de back-end mobile à la demande"</h4><br/>
+                <p>C'est une architecture informatique hébergée dans le Cloud qui offre aux applications mobiles un accès à des dispositifs de stockage, à des bases de données et à d’autres ressources dont elles peuvent avoir besoin pour fonctionner.</p><br/>
+                <p>Cette approche de type PaaS a recours à des API et à des kits de développement logiciel (SDK) pour relier les applications mobiles au back-end Cloud.</p><br/>
+                <p>Une solution MBaaS peut servir à assurer des fonctions courantes, telles que la transmission des notifications, l'intégration à des réseaux sociaux ou les services de géolocalisation. Cette approche s'écarte du développement d'applications
+                    mobiles classique, qui oblige les développeurs à intégrer individuellement les API de chaque service dont l’app a besoin.</p><br/>
+                <p>Le modèle MBaaS permet également aux développeurs d'applications mobiles de s'abstraire complètement de l'infrastructure côté serveur inhérente à tout back-end. Il leur suffit d'assembler les constituants essentiels requis et d'écrire
+                    le code permettant de les relier entre eux. Ils peuvent alors se consacrer pleinement au développement d'expériences utilisateur au lieu de se préoccuper des questions d’infrastructure sous-jacente.</p>
+            </article>
+
+            <div id="n">N</div>
+            <article class="lexique">
+                <h3 class="mot">NIH</h3>
+                <img src="../assets/img/nih.jpg" alt="NIH" />
+                <p>L'expression not invented here (littéralement « pas inventé ici » ou de manière développée « ce truc n'a pas été développé par nous ») désigne de manière péjorative l'attitude d'une entreprise ou une association qui re-développe en interne
+                    tout ou partie d'un logiciel ou d'interfaces déjà développés ailleurs.</p>
+                <a href="https://fr.wikipedia.org/wiki/Not_invented_here">source: Wikipedia</a>
+            </article>
+
+            <article class="lexique">
+                <h3>NPM: The Node Package Manager</h3>
+                <img src="../assets/img/npm_on-site_logo_large.png" alt="NPM">
+                <p>NPM est le gestionnaire de paquets officiel de Node.js. Depuis la version 0.6.3 de Node.js, NPM fait partie de l'environnement et est donc automatiquement installé par défaut3. NPM fonctionne avec un terminal et gère les dépendances pour
+                    une application. Il permet également d'installer des applications Node.js disponibles sur le dépôt NPM.</p>
+                <p>Exemple: <code>$ npm install bootstrap@3</code></p>
+                <p>Source: <a href="https://fr.wikipedia.org/wiki/Npm">wikipedia</A></p>
+            </article>
+
+
+            <div id="o">O</div>
+            <div id="p">P</div>
+            <article class="lexique">
+                <img src=../assets/img/php.jpeg alt="PSR" height=50%/>
+                <h3>PSR</h3>
+                <p>Les PSR (pour « Propose a Standards Recommendation ») sont des recommandations validées par le PHP Framework Interoperability Group, ayant pour objectif d’améliorer l’interopérabilité entre les frameworks PHP, et plus généralement entre
+                    les développeurs PHP. Il ne s’agit aucunement de normes ou de standards établis mais de recommandations qui tendent à le devenir. D’un sens, les PSR sont similaires aux RFC (Request For Comment) qui régulent désormais le monde des
+                    réseaux. A ce jour, les recommandations PSR validées sont aux nombres de 4 : PSR-0 : qui traite du chargement des classes PHP et de l’autoloading ; PSR-1 : qui fixe les conventions minimales de codage ; PSR-2 : qui défini le style
+                    et l’organisation du code ; PSR-3 : qui s’occupe de l’interface des loggers. Ces recommandations font débat dans la communauté. Vous pouvez lire du contre par là et par là. L’une des raisons est que ces recommandations qui, à la base,
+                    doivent traiter de l’interopérabilité entre frameworks PHP traitent naturellement de sujets sensibles, tels que les conventions de codage qui restent très subjectives. Reste que la démarche est intéressante et qu’il est toujours bon
+                    d’aller dans le sens d’une harmonisation des méthodes de développements. Si vous souhaitez contribuer aux recommandations PSR ou simplement connaitre l’avancement des débats, vous pourrez trouver de l’information sur Google group :</p>
+                <a href="https://groups.google.com/forum/?fromgroups=#!forum/php-fig.">Lien pour contribution</a>
+                <p>Vous pouvez également consulter le github qui regroupe les recommandations, celles en débat ainsi que des infos utiles sur le FIG : </p>
+                <a href="https://github.com/php-fig/fig-standards">Lien vers le github</a>
+
+                <div id="q">Q</div>
+                <div id="r">R</div>
+
+                <article class="lexique">
+                    <img src="../assets/img/refactoring.jpg" alt="Refactoring" height=50%/>
+                    <h3>Refactoring</h3>
+                    <p>Refactorer consiste à modifier un code source de façon à en améliorer la structure, sans que cela modifie son comportement fonctionnel.</p>
+
+                    <p>Attention, refactorer n'est pas:</p>
+                    <p>réécrire du code</p>
+                    <p>corriger des bugs</p>
+                    <a href="http://referentiel.institut-agile.fr/refactoring.html">source: Institut Agile</a>
+                </article>
+
+                <article class="lexique">
+                    <h3>Le ROWE - Qu'est-ce que c'est ?</h3>
+                    <img src="../assets/img/coucou.jpg" alt="Schema ROWE" title="Rester enfoncé pour zoomer" />
+                    <p>Le ROWE -Results Only Work Environment- pouvant se traduire par Environnement de Travail axé Uniquement sur les Résultats est une stratégie de management des ressources humaines dans laquelle les employés sont payés pour leurs résultats
+                        plutôt qu'au nombre d'heures de travail.</p>
+                    <p>Ses créateurs, Jody Thompson et Cali Ressler, ont tout d'abord proposé cette stratégie à Best Buy, s'avérant intéressante elle s'est faite connaître par nombre d'entreprises dont <a href="https://en.wikipedia.org/wiki/Gap_Inc." title="gap"
+                            target="_blank">gap</a> ou même <a href="https://en.wikipedia.org/wiki/Gap_Inc." title="Fairview Health Services I.T Department" target="_blank">Fairview Health Services I.T Department</a>.</p>
+                    <h3> Le ROWE - Qu'est-ce que ça permet ?</h3>
+                    <p>ROWE tente de fournir aux directeurs les outils leur permettant de définir des objectifs qui peuvent être clairement atteignables ou non en fonction des résultats de chaque contributeur travaillant pour eux.</p>
+                    <p>Cette focalisation sur la possibilité ou non d'atteindre des objectifs permet à la fois aux employés de connaître leurs limites et aux employeurs de connaître leurs possibilités, résultant en une liberté non-négligable donnée à l'organisation
+                        de se concentrer sur moins de détails de dernière minute dans l'organisation quotidienne de chaque employé.</p>
+                    <h3> Le ROWE - Comment ça évolue ?</h3>
+                    <p>Depuis sa création, un nombre en constante croissance d'entreprise se servent de cette stratégie. Et certaines expérimentent avec, comme par exemple la Suède qui a adopté cette stratégie avec uniquement 6 heures de travail par jour,
+                        dans l'espoir d'améliorer la productivité des employés, créant des conditions de travail qui leurs sont plus saines.</p>
+                    <p>Sources : <a href="https://en.wikipedia.org/wiki/ROWE" title="wikipedia" target="_blank">Wikipedia.org</a> </p>
+                </article>
+
+                <div id="s">S</div>
+                <article class="lexique">
+                    <h3>SaaS - software as a service</h3>
+                    <img src="../assets/img/saas.jpg" alt="logiciel en tant que service" title="SaaS" />
+                    <p>Le logiciel en tant que service ou software as a service (SaaS) est un modèle d'exploitation commerciale des logiciels dans lequel ceux-ci sont installés sur des serveurs distants plutôt que sur la machine de l'utilisateur. Les clients
+                        ne paient pas de licence d'utilisation pour une version, mais utilisent librement le service en ligne ou, plus généralement, payent un abonnement.</p>
+                    <p>Historique :</p>
+
+                    <p>Le terme SaaS (logiciel en tant que service) apparu en 2001, remplace les termes ASP (application service provider) ou encore « on demand », précédemment employés. Des domaines comme les solutions collaboratives et la communication
+                        d'entreprise sont maintenant largement adoptés en mode SaaS : partage d'agendas en ligne, outils de conférence à distance, services de gestion de contacts et de présence...</p>
+                    <p>Avantages :</p>
+                    <p>L'ensemble des solutions techniques étant délocalisées le coût devient fixe, généralement fonction du nombre de personnes utilisant la solution SaaS. Le SaaS présente l'avantage d'un impact budgétaire et financier plutôt moindre. Les
+                        solutions SaaS étant déjà pré-existantes le temps de déploiement est extrêmement faible.</p>
+
+                    <p>Inconvénients :</p>
+
+                    <p>Lors de la mise en place de solutions SaaS, les données relatives à l'entreprise cliente sont, généralement, stockées sur les serveurs du prestataire. Cela permet un accès nomade aux données de l'entreprise y compris les données sensibles
+                        ou confidentielles. Cet accès entraîne un souci de sécurité de l'information lors du départ de collaborateurs. Il est indispensable d'avoir mis en place des procédures permettant de supprimer l'habilitation de l'ancien collaborateur
+                        à accéder aux données de l'entreprise.
+                        <br /> Les migrations informatiques peuvent être compliquées puisqu'il faut basculer les données de la plate-forme d'un fournisseur vers celle d'un autre, avec divers problèmes associés (compatibilité, apparence pour le client,
+                        etc.).
+                        <br /> Ces solutions nécessitent de disposer d'un accès Internet ce qui est loin d'être le cas pour les clients nomades se déplaçant dans des régions non couvertes ou avec une couverture médiocre.
+                    </p>
+                    >>>>>>> 8e09c3a5a3ed8ba8cc1701bbb1f23516773d2f92
+                    <p>Sources : <a href="https://fr.wikipedia.org/wiki/Logiciel_en_tant_que_service" target="_blank">Wikipédia</a></p>
+                </article>
+
+                <h3>SCRUM - ou l'apéro sans alcool.</h3>
+                <img src="../assets/img/methode-scrum.jpg" alt="schema méthode scrum" title="Rester enfoncé pour zoomer" />
+                <p>Scrum est une méthode intégrante à la méthode Agile. Scrum a 4 valeurs fondamentales : L’équipe , l’application, la collaboration, l’acceptation du changement. L’approche est de définir un besoin. Ce besoin peut être interne ou externe
+                    mais c’est à vous de le gérer de la planification à la gestion du temps en passant par la gestion des obstacles.</p>
+                <p>Les règles sont simples mais strictes : la durée du projet est découpée en itérations courtes. Une itération contient seulement une partie de l’application, complète ( développée et testée). Ca se déroule comme suit :</p>
+                <ul>
+                    <li>Une réunion initiale commence chaque itération pour définir les tâches. Les itérations doivent être claires pour chacun.</li>
+                    <li>Chaque jour, une courte réunion de 5 minutes maxi permet à toute l’équipe d’avoir une vue globale du projet : de savoir ce qui s’y passe et comment ça se passe.</li>
+                    <li>Une réunion finale présente une démonstration de ce qui est fait avec ce qui s’est bien passé ou pas.</li>
+                    <li>Parallèlement à cela, des tableaux de bords sont régulièrement générés pour avoir une vue réelle de l’avancement (MyPads par exemple) durant la période de "sprint".</li>
+                </ul>
+                <p>Ainsi la notion de coût, de délais, de situation, de charge, de tests sont des éléments qui doivent être vus à tout moment.</p>
+                <p>Sources : <a href="https://www.synergeek.fr/methode-agile-scrum-cest-quoi" target="_blank"> Synergeek.fr</a> / <a href="http://www.agiliste.fr/guide-de-demarrage-scrum/" target="_blank">Agiliste.fr</a> </p>
+            </article>
+
+            <article class="lexique">
+                <h3>Le SEO, ce grand inconnu...</h3>
+                <img src="../assets/img/seo_480.png" alt="SEO" width=30% height=30% />
+                <h3>Optimisation pour les moteurs de recherche.</h3>
+                <p>L’optimisation pour les moteurs de recherche, couramment appelée SEO (acronyme de Search Engine Optimization), est un ensemble de techniques visant à optimiser la visibilité d'un site web dans les pages de résultats de recherche (les SERP,
+                    pour Search Engine Result Pages). Ces techniques cherchent à améliorer la compréhension par les robots d'indexation de la thématique et du contenu d'une ou de l'ensemble des pages d'un site web et à en augmenter ainsi le trafic naturel.L'objectif
+                    de ce procédé vise à améliorer le positionnement d'une page web dans les pages de résultats de recherche des moteurs sur des mots-clés ciblés (correspondant généralement aux thèmes principaux du site). On considère que le positionnement
+                    d'un site est bon lorsqu'il est positionné (classé) en première page des résultats de recherche, dans l'une des dix premières réponses d'une recherche sur des mots-clés correspondant précisément à sa thématique1.</p>
+                <h3>Historique</h3>
+                <p>L'optimisation pour les moteurs de recherche a commencé avec l'apparition des premiers annuaires et moteurs de recherche dès 1994. Le référencement s'est d'abord porté sur des moteurs comme Altavista ou des annuaires comme Yahoo! avant
+                    de se concentrer sur Google et de se professionnaliser.</p>
+                <h3>Enjeux du SEO</h3>
+                <p>L'optimisation pour les moteurs de recherche ou search engine optimization représente un véritable enjeu à plusieurs niveaux : rendre son site visible de façon pérenne; Permettre le référencement capter du trafic qualifié depuis les moteurs
+                    de recherche ; augmenter le nombre de conversions;construire une image de marque en direction des internautes.L'objectif du travail d'optimisation du site pour les moteurs de recherche est, dans un premier temps, de définir les termes/les
+                    requêtes que les internautes seront susceptibles de saisir pour arriver sur le site. Ces mots-clés seront sélectionnés en fonction de l'activité de la société ainsi qu'en fonction du trafic potentiel. Un mot-clé trop spécifique n'apportera
+                    pas assez de trafic et un mot-clé trop générique génèrera un volume important de trafic non qualifié. Apparaître sur Google en première page pour une requête dite « générique » (exemple « mp3 »), assure un volume important de trafic.
+                    En effet, environ les deux tiers des utilisateurs cliquent sur l'un des résultats de la première page et la quasi-totalité ne regardent pas au-delà de la troisième.</p>
+                <p>Sources : <a href="https://fr.wikipedia.org/wiki/Optimisation_pour_les_moteurs_de_recherche">Wikipédia</a></p>
+            </article>
+
+            <article class="lexique">
+                <h3>SOLID</h3>
+                <img src="../assets/img/SOLID.jpg" alt="schema solid">
                 <p>
+<<<<<<< HEAD
                     <ul>
                         <li>faire évoluer HTML pour décrire la sémantique des documents mais aussi les applications en ligne ;</li>
                         <li>arvenir à un langage extensible via XML tout en maintenant une version non XML compatible avec les analyseurs syntaxiques (parsers) HTML des navigateurs actuels ;</li>
@@ -231,6 +520,30 @@
         </article>
 
         <div id="i">I</div>
+                              <article class="lexique">
+                                  <img src="../assets/img/ic.png" alt="logo ci" title="Rester enfoncé pour zoomer" />
+                                  <h3>CI: Intégration continue</h3>
+                                  <h3>Definition</h3>
+                                  <p>L'intégration continue est un ensemble de pratiques utilisées en génie logiciel consistant à vérifier à chaque modification de code source que le résultat des modifications ne produit pas de régression dans l'application développée. Le concept a pour la première fois été mentionné par Grady Booch1 et se réfère généralement à la pratique de l'extreme programming. Le principal but de cette pratique est de détecter les problèmes d'intégration au plus tôt lors du développement. De plus, elle permet d'automatiser l'exécution des suites de tests et de voir l'évolution du développement du logiciel.</p>
+                      <p>L'intégration continue est de plus en plus utilisée en entreprise afin d'améliorer la qualité du code et du produit final.</p>
+                      <h3>Intérêt</h3>
+                      <p>L'intégration continue repose souvent sur la mise en place d'une brique logicielle permettant l'automatisation de tâches : compilation, tests unitaires et fonctionnels, validation produit, tests de performances… À chaque changement du code, cette brique logicielle va exécuter un ensemble de tâches et produire un ensemble de résultats, que le développeur peut par la suite consulter. Cette intégration permet ainsi de ne pas oublier d'éléments lors de la mise en production et donc ainsi améliorer la qualité du produit</p>
+                      <p>Pour appliquer cette technique, il faut d'abord que :</p>
+                      <ul>
+                      <li>le code source soit partagé (en utilisant des logiciels de gestion de versions tels que CVS, Subversion, git, Mercurial, etc.)</li>
+                      <li>les développeurs intègrent (commit) quotidiennement (au moins) leurs modifications.</li>
+                      <li>des tests d'intégration soient développés pour valider l'application (avec JUnit par exemple).</li>
+                      </ul>
+                      <p>Un outil d'intégration continue est ensuite nécessaire, tel que TeamCity, CruiseControl ou Jenkins (fork de Hudson) pour le langage Java par exemple. D'autres outils, comme SonarQube ou Jacoco, peuvent être mis en place afin de superviser la qualité du code.</p>
+                      <p>Les principaux avantages d'une telle technique de développement sont :</p>
+                      <ul>
+                      <li>le test immédiat des modifications</li>
+                      <li>la notification rapide en cas de code incompatible ou manquant</li>
+                      <li>les problèmes d'intégration sont détectés et réparés de façon continue, évitant les problèmes de dernière minute.</li>
+                      <li>une version est toujours disponible pour un test, une démonstration ou une distribution.</li>
+                      </ul>
+                      <p>Sources : <a href="https://fr.wikipedia.org/wiki/Int%C3%A9gration_continue" title="wikipedia" target="_blank">Wikipedia.org</a></p>
+                      </article>
         <div id="j">J</div>
         <div id="k">K</div>
         <article class="lexique">
@@ -344,6 +657,28 @@
 
         <div id="o">O</div>
         <div id="p">P</div>
+        <article class="lexique">
+            <img src=../assets/img/php.jpeg alt="PSR"height=50%/>
+            <h3>PSR</h3>
+            <p>Les PSR (pour « Propose a Standards Recommendation ») sont des recommandations validées par le PHP Framework Interoperability Group, ayant pour objectif d’améliorer l’interopérabilité entre les frameworks PHP, et plus généralement entre les développeurs PHP. Il ne s’agit aucunement de normes ou de standards établis mais de recommandations qui tendent à le devenir. D’un sens, les PSR sont similaires aux RFC (Request For Comment) qui régulent désormais le monde des réseaux.</p></br>
+
+        <ul>A ce jour, les recommandations PSR validées sont aux nombres de 7 :</ul>
+
+                <li>PSR-4 est la norme pour l’auto chargement des classes. PSR-1 étant déprécié.</li>
+                <li>PSR-1 et PSR-2 vont se concentrer sur la forme du code</li>
+                <li>PSR-3 est pour la mise en forme de log.</li>
+                <li>PSR-5: PHPDoc porté par l'équipe de phpDocumentor</li>
+                <li>PSR-6 pour la mise en cache d’objets (Redis, memcached)</li>
+                <li>PSR-7 pour les requêtes/réponses HTTP</li>
+            </ul>
+
+            <p>Ces recommandations font débat dans la communauté. Vous pouvez lire du contre par là et par là. L’une des raisons est que ces recommandations qui, à la base, doivent traiter de l’interopérabilité entre frameworks PHP traitent naturellement de sujets sensibles, tels que les conventions de codage qui restent très subjectives. Reste que la démarche est intéressante et qu’il est toujours bon d’aller dans le sens d’une harmonisation des méthodes de développements.</p></br>
+
+            <p>Si vous souhaitez contribuer aux recommandations PSR ou simplement connaitre l’avancement des débats, vous pourrez trouver de l’information sur Google group :</p>
+            <a href="https://groups.google.com/forum/?fromgroups=#!forum/php-fig">Lien pour contribution</a>
+            <p>Vous pouvez également consulter le github qui regroupe les recommandations, celles en débat ainsi que des infos utiles sur le FIG : </p>
+            <a href="https://github.com/php-fig/fig-standards">Lien vers le github</a>
+
         <div id="q">Q</div>
         <div id="r">R</div>
 
@@ -399,45 +734,79 @@
             <p>Ainsi la notion de coût, de délais, de situation, de charge, de tests sont des éléments qui doivent être vus à tout moment.</p>
             <p>Sources : <a href="https://www.synergeek.fr/methode-agile-scrum-cest-quoi" target="_blank"> Synergeek.fr</a> / <a href="http://www.agiliste.fr/guide-de-demarrage-scrum/" target="_blank">Agiliste.fr</a> </p>
         </article>
+=======
+                    SOLID est un acronyme représentant cinq principes de bases pour la programmation orientée objet, introduits par Michael Feathers et Robert C. Martin au début des années 2000. Ils sont censés apporter une ligne directrice permettant le développement de
+                    logiciel plus fiable et plus robuste. </p>
 
-        <article class="lexique">
-            <h3>Le SEO, ce grand inconnu...</h3>
-            <img src="../assets/img/seo_480.png" alt="SEO" width=30% height=30% />
-            <h3>Optimisation pour les moteurs de recherche.</h3>
-            <p>L’optimisation pour les moteurs de recherche, couramment appelée SEO (acronyme de Search Engine Optimization), est un ensemble de techniques visant à optimiser la visibilité d'un site web dans les pages de résultats de recherche (les SERP,
-                pour Search Engine Result Pages). Ces techniques cherchent à améliorer la compréhension par les robots d'indexation de la thématique et du contenu d'une ou de l'ensemble des pages d'un site web et à en augmenter ainsi le trafic naturel.L'objectif
-                de ce procédé vise à améliorer le positionnement d'une page web dans les pages de résultats de recherche des moteurs sur des mots-clés ciblés (correspondant généralement aux thèmes principaux du site). On considère que le positionnement
-                d'un site est bon lorsqu'il est positionné (classé) en première page des résultats de recherche, dans l'une des dix premières réponses d'une recherche sur des mots-clés correspondant précisément à sa thématique1.</p>
-            <h3>Historique</h3>
-            <p>L'optimisation pour les moteurs de recherche a commencé avec l'apparition des premiers annuaires et moteurs de recherche dès 1994. Le référencement s'est d'abord porté sur des moteurs comme Altavista ou des annuaires comme Yahoo! avant de
-                se concentrer sur Google et de se professionnaliser.</p>
-            <h3>Enjeux du SEO</h3>
-            <p>L'optimisation pour les moteurs de recherche ou search engine optimization représente un véritable enjeu à plusieurs niveaux : rendre son site visible de façon pérenne; Permettre le référencement capter du trafic qualifié depuis les moteurs
-                de recherche ; augmenter le nombre de conversions;construire une image de marque en direction des internautes.L'objectif du travail d'optimisation du site pour les moteurs de recherche est, dans un premier temps, de définir les termes/les
-                requêtes que les internautes seront susceptibles de saisir pour arriver sur le site. Ces mots-clés seront sélectionnés en fonction de l'activité de la société ainsi qu'en fonction du trafic potentiel. Un mot-clé trop spécifique n'apportera
-                pas assez de trafic et un mot-clé trop générique génèrera un volume important de trafic non qualifié. Apparaître sur Google en première page pour une requête dite « générique » (exemple « mp3 »), assure un volume important de trafic. En
-                effet, environ les deux tiers des utilisateurs cliquent sur l'un des résultats de la première page et la quasi-totalité ne regardent pas au-delà de la troisième.</p>
-            <p>Sources : <a href="https://fr.wikipedia.org/wiki/Optimisation_pour_les_moteurs_de_recherche">Wikipédia</a></p>
-        </article>
-
-        <article class="lexique">
-          <h3>SOLID</h3>
-          <img src="../assets/img/SOLID.jpg" alt="schema solid">
-          <p>
-            SOLID est un acronyme représentant cinq principes de bases pour la programmation orientée objet, introduits par Michael Feathers et Robert C. Martin au début des années 2000. Ils sont censés apporter une ligne directrice permettant le développement de logiciel plus fiable et plus robuste. </p>
-
-          <p>En français : </p>
-          <ul>
-            <li><strong>Responsabilité unique (SingSubstitution de Liskov (Liskov substitution Principle):le Responsibility Principle):</strong> une classe, une fonction ou une méthode doit avoir une et une seule responsabilité</li> <br/>
-            <li><strong>Ouvert/fermé (Open/closed principle):</strong>une classe doit être ouverte à l'extension, mais fermée à la modification </li> <br/>
-            <li><strong>Substitution de Liskov (Liskov substitution Principle):</strong> une instance de type T doit pouvoir être remplacée par une instance de type G, tel que G sous-type de T, sans que cela ne modifie la cohérence du programme</li> <br/>
-            <li><strong>Ségrégation des interfaces (Interface segregation principle):</strong> préférer plusieurs interfaces spécifiques pour chaque client plutôt qu'une seule interface générale </li> <br/>
-            <li><strong>Inversion des dépendances (Dependency Inversion Principle):</strong> il faut dépendre des abstractions, pas des implémentations </li>
-          </ul>
-          <p>Source : <a target="_blank" href="https://fr.wikipedia.org/wiki/SOLID_(informatique)">Wikipédia</a></p>
-        </article>
+                <p>En français : </p>
+                <ul>
+                    <li><strong>Responsabilité unique (SingSubstitution de Liskov (Liskov substitution Principle):le Responsibility Principle):</strong> une classe, une fonction ou une méthode doit avoir une et une seule responsabilité</li> <br/>
+                    <li><strong>Ouvert/fermé (Open/closed principle):</strong>une classe doit être ouverte à l'extension, mais fermée à la modification </li> <br/>
+                    <li><strong>Substitution de Liskov (Liskov substitution Principle):</strong> une instance de type T doit pouvoir être remplacée par une instance de type G, tel que G sous-type de T, sans que cela ne modifie la cohérence du programme</li>
+                    <br/>
+                    <li><strong>Ségrégation des interfaces (Interface segregation principle):</strong> préférer plusieurs interfaces spécifiques pour chaque client plutôt qu'une seule interface générale </li> <br/>
+                    <li><strong>Inversion des dépendances (Dependency Inversion Principle):</strong> il faut dépendre des abstractions, pas des implémentations </li>
+                </ul>
+                <p>Source : <a target="_blank" href="https://fr.wikipedia.org/wiki/SOLID_(informatique)">Wikipédia</a></p>
+            </article>
 
 
+            <div id="t">T</div>
+            <article class="lexique">
+                <h3>Le TDD</h3>
+                <img src="../assets/img/TDD.png" alt="TDD" title="TDD" />
+                <p>Le test-driven development ou en français développement piloté par les tests est une technique de développement de logiciel qui préconise d'écrire les tests unitaires avant d'écrire le code source d'un logiciel. Le cycle préconisé par
+                    TDD comporte cinq étapes :</p>
+                <ul>
+                    <li>écrire un premier test ;</li>
+                    <li>vérifier qu'il échoue (car le code qu'il teste n'existe pas), afin de vérifier que le test est valide;</li>
+                    <li>écrire juste le code suffisant pour passer le test ;</li>
+                    <li>vérifier que le test passe ;</li>
+                    <li>puis réusiner le code, c'est-à-dire l'améliorer tout en gardant les mêmes fonctionnalités.</li>
+                </ul>
+                <p>Ces tests permettent aussi de préciser les spécifications du code, et donc son comportement ultérieur en fonction des situations auxquelles il sera exposé. Ce qui facilite la production d'un code valide en toutes circonstances. On obtient
+                    donc un code plus juste et plus fiable.En écrivant les tests d'abord, on utilise le programme avant même qu'il existe. On s'assure ainsi que le code produit est testable unitairement. De plus, le fait d'avoir des tests augmente la
+                    confiance en soi du programmeur lors du réusinage du code : il sait qu'à un moment donné les tests ont réussi. Le TDD est souvent associé, particulièrement dans la méthode XP, à la programmation en binôme. Pour expliquer les rôles
+                    des deux acteurs impliqués, il est généralement utilisé la métaphore du rallye automobile. Pour chaque fonctionnalité à réaliser, l'un des développeurs, nommé copilote, code le test. Ensuite, le pilote code la fonctionnalité elle-même.
+                    À chaque nouvelle fonctionnalité ajoutée, l'ensemble test-code ainsi réalisé sera de nouveau exécuté, réduisant ainsi au maximum le risque de régression.</p>
+
+                <p><a href="https://fr.wikipedia.org/wiki/Optimisation_pour_les_moteurs_de_recherche">Wikipédia</a></p>
+            </article>
+
+            <div id="u">U</div>
+            <div id="v">V</div>
+            <div id="w">W</div>
+            <div id="x">X</div>
+            <div id="y">Y</div>
+            <div id="z">Z</div>
+
+
+            <article class="lexique">
+                <img id="imgyagni" src="../assets/img/yagni.jpg" alt="Yagni">
+                <h3>YAGNI</h3>
+
+                <p>YAGNI (anglicisme, acronyme anglais de you ain't gonna need it, qui peut se traduire par « vous n'en aurez pas besoin ») est un principe d'extreme programming qui déclare que les programmeurs ne devraient pas ajouter de fonctionnalité
+                    à un logiciel tant que celle-ci n'est pas absolument nécessaire.</p>
+
+                <p>Ecrire du code qui n'est pas nécessaire à l'instant présent, mais qui pourrait l'être dans le futur, entraine des inconvénients parmi lesquels :</p>
+
+                <ul>
+                    <li>Une perte de temps lors de l'ajout, du test ou de l'amélioration de fonctionnalités par rapport à celles qui sont immédiatement nécessaires.</li>
+                    <li>Possibilité d'un conflit avec une future fonctionnalité nécessaire.</li>
+                    <li>Tant que la fonctionnalité n'est pas réellement nécessaire, il est difficile de définir complètement ce qu'elle doit faire, et comment la tester. Si cette nouvelle fonctionnalité n'est pas correctement définie et testée, elle risque
+                        de ne pas fonctionner correctement lorsqu'elle sera un jour nécessaire.</li>
+                    <li>Ecriture de code inutilement long. Le logiciel grossit et devient plus compliqué.</li>
+                    <li>La fonctionnalité peut être inconnue des programmeurs qui pourraient s'en servir.</li>
+                </ul>
+>>>>>>> 1bca2b67ecd74e424a5e578bc4ccd737a301ec9a
+
+                <p>L'extreme programming a été inventée en mars 1996, et est née officiellement en octobre 1999 avec le livre Extreme Programming Explained de Kent Beck (chef de projet).</p>
+                <p>Sources Wikipédia : <a href="https://fr.wikipedia.org/wiki/YAGNI" target="_blank">Yagni</a></p>
+            </article>
+
+
+
+<<<<<<< HEAD
         <div id="t">T</div>
         <article class="lexique">
             <h3>Le TDD</h3>
@@ -454,6 +823,10 @@
   <p>Ces tests permettent aussi de préciser les spécifications du code, et donc son comportement ultérieur en fonction des situations auxquelles il sera exposé. Ce qui facilite la production d'un code valide en toutes circonstances. On obtient donc un code plus juste et plus fiable.En écrivant les tests d'abord, on utilise le programme avant même qu'il existe. On s'assure ainsi que le code produit est testable unitairement.
   De plus, le fait d'avoir des tests augmente la confiance en soi du programmeur lors du réusinage du code : il sait qu'à un moment donné les tests ont réussi.
   Le TDD est souvent associé, particulièrement dans la méthode XP, à la programmation en binôme. Pour expliquer les rôles des deux acteurs impliqués, il est généralement utilisé la métaphore du rallye automobile. Pour chaque fonctionnalité à réaliser, l'un des développeurs, nommé copilote, code le test. Ensuite, le pilote code la fonctionnalité elle-même. À chaque nouvelle fonctionnalité ajoutée, l'ensemble test-code ainsi réalisé sera de nouveau exécuté, réduisant ainsi au maximum le risque de régression.</p>
+  <p>malgré le savanatges du TDD,cette technique peut éventuellement restreindre la vision du développeur. Celui-ci peut, par exemple, ne pas couvrir tous les cas d’utilisation lors de ces tests. Ceux-ci seront alors réussis alors que son code ne remplit pas toutes ses fonctionnalités.
+  Celui-ci peut également se contenter du minimum afin de réussir ses différents tests unitaires, cela pourrait diriger le développeur vers du code mal optimisé. Il faut donc essayer de refactoriser son code régulièrement.
+
+  Ensuite, l’écriture de ces nombreux tests peut s’avérer longue pour le développeur qui pourrait par la suite avoir du mal à implémenter les autres fonctionnalités en respectant les délais attendus.</p>
 
      <p><a href="https://fr.wikipedia.org/wiki/Optimisation_pour_les_moteurs_de_recherche">Wikipédia</a></p>
   </article>
@@ -464,34 +837,35 @@
         <div id="x">X</div>
         <div id="y">Y</div>
         <div id="z">Z</div>
-
-
-        <article class="lexique">
-            <img id="imgyagni" src="../assets/img/yagni.jpg" alt="Yagni">
-            <h3>YAGNI</h3>
-
-            <p>YAGNI (anglicisme, acronyme anglais de you ain't gonna need it, qui peut se traduire par « vous n'en aurez pas besoin ») est un principe d'extreme programming qui déclare que les programmeurs ne devraient pas ajouter de fonctionnalité à un
-                logiciel tant que celle-ci n'est pas absolument nécessaire.</p>
-
-            <p>Ecrire du code qui n'est pas nécessaire à l'instant présent, mais qui pourrait l'être dans le futur, entraine des inconvénients parmi lesquels :</p>
-
-            <ul>
-                <li>Une perte de temps lors de l'ajout, du test ou de l'amélioration de fonctionnalités par rapport à celles qui sont immédiatement nécessaires.</li>
-                <li>Possibilité d'un conflit avec une future fonctionnalité nécessaire.</li>
-                <li>Tant que la fonctionnalité n'est pas réellement nécessaire, il est difficile de définir complètement ce qu'elle doit faire, et comment la tester. Si cette nouvelle fonctionnalité n'est pas correctement définie et testée, elle risque de
-                    ne pas fonctionner correctement lorsqu'elle sera un jour nécessaire.</li>
-                <li>Ecriture de code inutilement long. Le logiciel grossit et devient plus compliqué.</li>
-                <li>La fonctionnalité peut être inconnue des programmeurs qui pourraient s'en servir.</li>
-            </ul>
-
-            <p>L'extreme programming a été inventée en mars 1996, et est née officiellement en octobre 1999 avec le livre Extreme Programming Explained de Kent Beck (chef de projet).</p>
-            <p>Sources Wikipédia : <a href="https://fr.wikipedia.org/wiki/YAGNI" target="_blank">Yagni</a></p>
-        </article>
-
-
-
+=======
+>>>>>>> 5d08a9763aa82983c5861dd47b26b00767f4d3bf
 
     </section>
+
+</body>
+
+</html>
+pe d'extreme programming qui déclare que les programmeurs ne devraient pas ajouter de fonctionnalité à un logiciel tant que celle-ci n'est pas absolument nécessaire.</p>
+
+<p>Ecrire du code qui n'est pas nécessaire à l'instant présent, mais qui pourrait l'être dans le futur, entraine des inconvénients parmi lesquels :</p>
+
+<ul>
+    <li>Une perte de temps lors de l'ajout, du test ou de l'amélioration de fonctionnalités par rapport à celles qui sont immédiatement nécessaires.</li>
+    <li>Possibilité d'un conflit avec une future fonctionnalité nécessaire.</li>
+    <li>Tant que la fonctionnalité n'est pas réellement nécessaire, il est difficile de définir complètement ce qu'elle doit faire, et comment la tester. Si cette nouvelle fonctionnalité n'est pas correctement définie et testée, elle risque de ne pas fonctionner
+        correctement lorsqu'elle sera un jour nécessaire.</li>
+    <li>Ecriture de code inutilement long. Le logiciel grossit et devient plus compliqué.</li>
+    <li>La fonctionnalité peut être inconnue des programmeurs qui pourraient s'en servir.</li>
+</ul>
+
+<p>L'extreme programming a été inventée en mars 1996, et est née officiellement en octobre 1999 avec le livre Extreme Programming Explained de Kent Beck (chef de projet).</p>
+<p>Sources Wikipédia : <a href="https://fr.wikipedia.org/wiki/YAGNI" target="_blank">Yagni</a></p>
+</article>
+
+
+
+
+</section>
 
 </body>
 
