@@ -9,21 +9,7 @@
   <link rel="stylesheet" href="assets/css/menu.css">
   <script src="assets/js/jquery.js"></script>
   <script src="assets/js/jquery.real-parallax.js"></script>
-  <script type="text/javascript">
-  $('#myParallax').parallax({
-    enableMouse: true,
-    activateOnClick: false,
-    sensitivityX: .5,
-    sensitivityY: .4,
-    easingCoefficient: 7,
-    autoZCoordinate: true,
-    useCustomZ: true,
-    focusZ: 100
-  });
-  $(document).ready(function(){
-    $('#myParallax').parallax({width: 1000,  height: 530,focusZ:80, sensitivityY:0.4, sensitivityX:1.2, easingCoefficient:30});
-  });
-  </script>
+  <script src="assets/js/paramParallax.js" type="text/javascript"></script>
   <title>Simplon ERN Narbonne</title>
 </head>
 <body id="haut">
@@ -31,9 +17,9 @@
     <header class="header">
       <div class="navBar">
         <ul class="topnav">
-          <li><a href="./contact.html"> Contact </a></li>
+          <li><a href="./contact.php"> Contact </a></li>
           <li><a href="#"> A propos </a></li>
-          <li><a class="" href="./index.html"> Accueil </a></li>
+          <li><a class="" href="./index.php"> Accueil </a></li>
         </ul>
       </div>
         <!-- <img src="assets/img/logoNarbonne.png" alt="logo"/> -->
@@ -45,55 +31,55 @@
             </div>
 
             <div style="left:780px;top:220px;" data-z="240">
-              <img src="assets/img/less.png" width="120px" height="60px" />
+              <img src="assets/img/less.png" width="120px" height="60px" alt="less logo" />
             </div>
 
             <div style="left:695px;top:400px;" data-z="240">
-              <img src="assets/img/ubuntu1.png" width="120px" height="90px" />
+              <img src="assets/img/ubuntu1.png" width="120px" height="90px" alt="ubuntu logo"/>
             </div>
 
             <div style="left:175px;top:400px;" data-z="220">
-              <img src="assets/img/MySQL.png" width="120px" height="60px" />
+              <img src="assets/img/MySQL.png" width="120px" height="60px" alt="mysql logo"/>
             </div>
 
             <div style="left:105px;top:210px;" data-z="200">
-              <img src="assets/img/github.png" width="90px" height="90px" />
+              <img src="assets/img/github.png" width="90px" height="90px" alt="github" logo"/>
             </div>
 
             <div style="left:185px;top:20px;" data-z="180">
-              <img src="assets/img/jQurery.png" width="90px" height="90px" />
+              <img src="assets/img/jQurery.png" width="90px" height="90px" alt="jquery logo"/>
             </div>
 
             <div style="left:695px;top:20px;" data-z="160">
-              <img src="assets/img/Apache1.png" width="140px" height="90px" />
+              <img src="assets/img/Apache1.png" width="140px" height="90px" alt="apache 2 logo"/>
             </div>
 
             <div style="left:575px;top:100px;" data-z="140">
-              <img src="assets/img/html5.png" width="90px" height="128px" />
+              <img src="assets/img/html5.png" width="90px" height="128px" alt="html5 logo"/>
             </div>
 
             <div style="left:450px;top: 60px;" data-z="120">
-              <img src="assets/img/css3.png" width="90px" height="128px" />
+              <img src="assets/img/css3.png" width="90px" height="128px" alt="css3 logo"/>
             </div>
 
             <div style="left:320px;top:100px;" data-z="100">
-              <img src="assets/img/js.png" width="90px" height="128px" />
+              <img src="assets/img/js.png" width="90px" height="128px" alt="javascript logo"/>
             </div>
 
             <div style="left:430px;top:200px;" data-z="80">
-              <img src="assets/img/logoNarbonne.png" width="128px" height="128px" />
+              <img src="assets/img/logoNarbonne.png" width="128px" height="128px" alt="simplon narbonne logo"/>
             </div>
 
             <div style="left:320px;top:260px;" data-z="60">
-              <img src="assets/img/php.png" width="90px" height="128px" />
+              <img src="assets/img/php.png" width="90px" height="128px" alt="php7 logo"/>
             </div>
 
             <div style="left:450px;top:365px;" data-z="40">
-              <img src="assets/img/sf.png" width="90px" height="90px" />
+              <img src="assets/img/sf.png" width="90px" height="90px" alt="symfony logo"/>
             </div>
 
             <div style="left:575px;top:260px;" data-z="20">
-              <img src="assets/img/bash2.png" width="100px" height="110px" />
+              <img src="assets/img/bash2.png" width="100px" height="110px" alt="bash logo"/>
             </div>
 
           <div style="left:10px;top:240px;" data-lock="yes"></div>
