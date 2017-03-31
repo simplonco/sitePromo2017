@@ -4,7 +4,8 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="./assets/css/sitepromo.css"/>
     <link rel="stylesheet" href="./assets/css/menu.css"/>
-    <link rel="stylesheet" href="assets/css/trombi.css">
+    <link rel="stylesheet" href="./assets/css/trombi.css">
+    <link rel="stylesheet" href="./assets/css/footer.css">
 
     <!--<link rel="stylesheet" href="./assets/css/accueil.css" />-->
 
