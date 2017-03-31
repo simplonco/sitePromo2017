@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="fr">
-<meta charset="utf-8">
 <head>
+  <meta charset="utf-8">
 
 <title>Trombinoscope Simplon Narbonne 2017</title>
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
