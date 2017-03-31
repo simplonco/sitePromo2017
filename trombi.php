@@ -6,6 +6,8 @@
 <title>Trombinoscope Simplon Narbonne 2017</title>
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
 <link rel="stylesheet" href="assets/css/trombi.css">
+<link rel="stylesheet" href="assets/css/trombi.css">
+
 <link rel ="icon" href="assets/img/favicon.ico">
 <script type="text/javascript" src="assets/js/jquery.min.js"></script>
 <script type="text/javascript" src="assets/jquery.jswipe-0.1.2.js"></script>

@@ -6,6 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="assets/css/accueil.css" />
   <link rel="stylesheet" href="assets/css/menu.css" />
+  <link rel="stylesheet" href="assets/css/trombi.css">
+
   <title>Simplon ERN Narbonne</title>
 </head>
 <body id="haut">
