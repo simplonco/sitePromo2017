@@ -343,6 +343,10 @@
   <p>Ces tests permettent aussi de préciser les spécifications du code, et donc son comportement ultérieur en fonction des situations auxquelles il sera exposé. Ce qui facilite la production d'un code valide en toutes circonstances. On obtient donc un code plus juste et plus fiable.En écrivant les tests d'abord, on utilise le programme avant même qu'il existe. On s'assure ainsi que le code produit est testable unitairement.
   De plus, le fait d'avoir des tests augmente la confiance en soi du programmeur lors du réusinage du code : il sait qu'à un moment donné les tests ont réussi.
   Le TDD est souvent associé, particulièrement dans la méthode XP, à la programmation en binôme. Pour expliquer les rôles des deux acteurs impliqués, il est généralement utilisé la métaphore du rallye automobile. Pour chaque fonctionnalité à réaliser, l'un des développeurs, nommé copilote, code le test. Ensuite, le pilote code la fonctionnalité elle-même. À chaque nouvelle fonctionnalité ajoutée, l'ensemble test-code ainsi réalisé sera de nouveau exécuté, réduisant ainsi au maximum le risque de régression.</p>
+  <p>malgré le savanatges du TDD,cette technique peut éventuellement restreindre la vision du développeur. Celui-ci peut, par exemple, ne pas couvrir tous les cas d’utilisation lors de ces tests. Ceux-ci seront alors réussis alors que son code ne remplit pas toutes ses fonctionnalités.
+  Celui-ci peut également se contenter du minimum afin de réussir ses différents tests unitaires, cela pourrait diriger le développeur vers du code mal optimisé. Il faut donc essayer de refactoriser son code régulièrement.
+
+  Ensuite, l’écriture de ces nombreux tests peut s’avérer longue pour le développeur qui pourrait par la suite avoir du mal à implémenter les autres fonctionnalités en respectant les délais attendus.</p>
 
      <p><a href="https://fr.wikipedia.org/wiki/Optimisation_pour_les_moteurs_de_recherche">Wikipédia</a></p>
   </article>
