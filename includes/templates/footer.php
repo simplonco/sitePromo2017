@@ -1,12 +1,4 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-    <link rel="stylesheet" href="./assets/css/footer.css">
-
-  </head>
-  <body>
+  <link rel="stylesheet" href="./assets/css/footer.css">
     <footer>
     <div class="partners">
       <h2>NOS PARTENAIRES :</h2>
@@ -23,5 +15,3 @@
       <a href="#haut"> <img class="fleche" src="./assets/img/fleche.png" alt="image fleche"> </a>
     </div>
   </footer>
-  </body>
-</html>
