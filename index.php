@@ -6,7 +6,6 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="assets/css/accueil.css" />
   <link rel="stylesheet" href="assets/css/menu.css" />
-  <link rel="stylesheet" href="assets/css/trombi.css">
 
   <title>Simplon ERN Narbonne</title>
 </head>
@@ -15,7 +14,7 @@
 
     <header class="header">
       <?php include("includes/templates/header.php"); ?>
-      
+
       <div class="titres">
         <h1 class="h1">Simplon ERN</h1>
         <img src="assets/img/logoNarbonne.png" alt="logo"/>
