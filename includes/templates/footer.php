@@ -1,3 +1,4 @@
+
     <footer>
     <div class="partners">
       <h2>NOS PARTENAIRES :</h2>
