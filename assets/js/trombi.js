@@ -207,16 +207,14 @@ function displayGallery() {
   var currentSlideImage = $('#gallery img').eq( currentSlide - 1 );
   $('#caption').text( currentSlideImage.attr('alt') );
   var lienGithub = currentSlideImage.attr('aria-github');
-  console.log(lienGithub);
     if(lienGithub != undefined){
-        $('#caption').append( "<a href='"+lienGithub+"' ><img src='./assets/img/github.png' alt='github'></a>" );
+        $('#caption').append( "<a href='"+lienGithub+"' target='_blank'><img src='./assets/img/github.png' alt='github'></a>" );
         $('#caption img').css('position', 'absolute');
         $('#caption img').css('', '');
     }
     var lienLinkedIn = currentSlideImage.attr('aria-linkedin');
-    console.log(lienLinkedIn);
       if(lienLinkedIn != undefined){
-          $('#caption').append( "<a href='"+lienLinkedIn+"' ><img src='./assets/img/linkedin.png' alt='linkedin'></a>" );
+          $('#caption').append( "<a href='"+lienLinkedIn+"'target='_blank'><img src='./assets/img/linkedin.png' alt='linkedin'></a>" );
           $('#caption img').css('position', 'relative');
           $('#caption img').css('', '');
       }

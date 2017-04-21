@@ -8,12 +8,6 @@ body {
 
 /*Header*/
 
-.header{
-    background: url("assets/img/background.jpg") scroll no-repeat;
-    background-size: 120%;
-    background-position: 0px -80px;
-}
-
 .titres {
   text-align: center;
 }
@@ -21,12 +15,6 @@ body {
 .titres img {
   width: 150px;
   height: auto;
-}
-
-.header {
-  background: url("assets/img/background.jpg") scroll no-repeat;
-  background-size: 120%;
-  background-position: 0px -80px;
 }
 
 ul.topnav {
