@@ -22,7 +22,7 @@
       </div>
       <div class="divScnd">
         <ul class="menuScnd">
-          <li class="test"><a href="#">Introduction</a></li>
+          <li class="test"><a href="./a_propos.php">Introduction</a></li>
           <li class="test"><a href="./outils.php">Outils</a></li>
           <li class="test"><a href="./projet.php">Nos projets</a></li>
           <li class="test"><a href="./trombi.php">Trombinoscope</a></li>
