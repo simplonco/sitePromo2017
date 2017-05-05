@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="./assets/css/menu.css"/>
     <link rel="stylesheet" href="./assets/css/trombi.css">
     <link rel="stylesheet" href="./assets/css/footer.css">
-    <link rel="stylesheet" href="./asset/css/a_propos.css">
+    <link rel="stylesheet" href="./assets/css/a_propos.css">
     <title>Présentation</title>
 </head>
 <body id="haut">
