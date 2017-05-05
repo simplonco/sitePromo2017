@@ -93,3 +93,26 @@ html, body {
 	transform: scale(1.2);
   transition: all 0.5s ease-out;
 }
+
+@media screen and (max-width: 600px) {
+  .divScnd {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+  }
+  .menuScnd li {
+    font-size: 80%;
+  }
+  .menuScnd {
+    padding-left: 0;
+  }
+  .header {
+    background-size: cover;
+  }
+  .titres {
+    margin-top: 10%;
+  }
+  .titres img {
+    min-width: 100px;
+  }
+}
