@@ -1,9 +1,9 @@
-@font-face {
+@font-face{
     font-family: 'SourceSansPro';
     src: url('SourceSansPro-Regular.otf');
 }
 
-* {
+*{
   font-family: /*SourceSansPro,*/ Helvetica, sans-serif;
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
@@ -12,6 +12,11 @@
 
 body{
   background-color: black;
+}
+
+section{
+  display: flex;
+  flex-direction: column;
 }
 
 #definitions{
@@ -30,8 +35,8 @@ body{
 .lexique img {
   margin: auto;
   display: block;
-  width: 50%;
-  height: 30%;
+  max-width: 300px;
+  max-height: 300px;
   padding: 2%;
 }
 
@@ -59,14 +64,47 @@ h3 {
   color: white;
 }
 
-a {
+nav{
+  display: flex;
+  padding-bottom: 15px;
+}
+
+.navLexique{
+  height: 50px;
+}
+
+.navLexique a {
   text-decoration: none;
   /*color: #FF8800;*/
-  color: white;
+  color: orange;
+  min-width: 25px;
+  background-color: grey;
+  border-radius: 100%;
+  text-align: center;
+  padding: 5px;
+  position: relative;
 
 }
 
-a:hover {
+.navLexique a:hover {
   font-style: italic;
-  color: white;
+  font-weight: bold;
+  font-size: 2.5em;
+  color: lime;
+  padding-top: 30px;
+  position: relative;
+  }
+
+#definitions #a, #b, #c, #d, #e, #f, #g, #h, #i, #j, #k, #l, #m, #n, #o, #p, #q, #r, #s, #t, #u, #v, #w, #x, #y, #z{
+  margin-left: 2px;
+  margin-top: 25px;
+  width: 40px;
+  height: 40px;
+  background-color: grey;
+  border-radius: 100%;
+  text-align: center;
+  font-size: 2em;
+  font-style: italic;
+  font-weight: bold;
+  color: lime;
 }
