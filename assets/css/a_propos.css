@@ -2,3 +2,12 @@
   text-align: center;
   margin: 2em 5em;
 }
+.presta{
+  display: flex;
+  flex-direction: row;
+}
+.presta p{
+  background: white;
+  padding: 3%;
+  margin: 2%;
+}
