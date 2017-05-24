@@ -17,13 +17,13 @@
       <?php include("./includes/templates/header.php") ?>
         <div class="trombi">
             <div id="gallery">
-                <img src="assets/img/projets/projet2.png"/>
-                <img src="assets/img/projets/projet2-1.png"/>
-                <img src="assets/img/projets/projet2-2.png"/>
-                <img src="assets/img/projets/projet3.png"/>
-                <img src="assets/img/projets/projet3-2.png"/>
-                <img src="assets/img/projets/projet3-3.png"/>
-                <img src="assets/img/projets/projet3-4.png"/>
+                <img src="assets/img/projets/projet2.png" alt="Projet de cours ludique sous forme d'enquête" title="Projet de cours ludique sous forme d'enquête"/>
+                <img src="assets/img/projets/projet2-1.png" alt="Projet de cours ludique sous forme d'enquête" title="Projet de cours ludique sous forme d'enquête"/>
+                <img src="assets/img/projets/projet2-2.png" alt="Projet de cours ludique sous forme d'enquête" title="Projet de cours ludique sous forme d'enquête"/>
+                <img src="assets/img/projets/projet3.png" alt="Application mobile : Jeu m'instruis" title="Application mobile : Jeu m'instruis" />
+                <img src="assets/img/projets/projet3-2.png" alt="Application mobile : Jeu m'instruis" title="Application mobile : Jeu m'instruis" />
+                <img src="assets/img/projets/projet3-3.png" alt="Application mobile : Jeu m'instruis" title="Application mobile : Jeu m'instruis" />
+                <img src="assets/img/projets/projet3-4.png" alt="Application mobile : Jeu m'instruis" title="Application mobile : Jeu m'instruis"/>
             </div>
                 <input type="range" name="slider" id="slider" />
                 <div id="caption"></div>
