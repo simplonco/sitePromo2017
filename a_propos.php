@@ -22,7 +22,7 @@
             <p>Entreprise de l’économie sociale et solidaire (agrément ESUS), Simplon.co est un réseau de « fabriques » (écoles) qui propose des formations GRATUITES pour devenir développeur de sites web et d’applications mobiles, intégrateur, référent numérique, datartisan, e-commerçant… et bien d’autres métiers numériques.</p>
           </div>
 
-          <div>
+          <div class="ern">
             <h2>Financée par l'Ecole Régionale du Numérique</h2>
 
             <p>15 participants, résidents d'occitanie, ont été sélectionnés sur la base de tests techniques et de leur motivation, pour participer à la formation "Développeur Logiciel" financée par la Région Occitanie.
@@ -31,17 +31,17 @@
           </div>
         </div>
 
-        <h2>Le programme</h2>
-          <p>
-            <ul>
-              <li>Module 1 : introduction aux systèmes informatiques et aux cultures numériques</li>
-              <li>Module 2 : Prise en main de l’environnement de développement</li>
-              <li>Module 3 : Développer l’interface d’une application web responsive pour smartphone et tablette</li>
-              <li>Module 4 : Développer des pages web en lien avec une base de données</li>
-              <li>Module 5 : Développer un site à l’aide d’un système de gestion de contenu ou d’un framework</li>
-              <li>Module 6 : Développer un site d’e-commerce</li>
-            </ul>
-          </p>
+        <div class="programme">
+          <h2>Le programme</h2>
+              <ul>
+                <li>Module 1 : Introduction aux systèmes informatiques et aux cultures numériques</li>
+                <li>Module 2 : Prise en main de l’environnement de développement</li>
+                <li>Module 3 : Développer l’interface d’une application web responsive pour smartphone et tablette</li>
+                <li>Module 4 : Développer des pages web en lien avec une base de données</li>
+                <li>Module 5 : Développer un site à l’aide d’un système de gestion de contenu ou d’un framework</li>
+                <li>Module 6 : Développer un site d’e-commerce</li>
+              </ul>
+          </div>
         </div>
       </div>
         <?php include 'includes/templates/footer.php';?>
