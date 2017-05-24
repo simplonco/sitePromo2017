@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="assets/css/accueil.css" />
   <link rel="stylesheet" href="assets/css/menu.css" />
 
-  <title>Simplon ERN Narbonne</title>
+  <title>Simplon - Ecole Régionale du Numérique Narbonne</title>
 </head>
 <body id="haut">
   <div class="content">
@@ -16,8 +16,9 @@
       <?php include("includes/templates/header.php"); ?>
 
       <div class="titres">
-        <h1 class="h1">Simplon ERN</h1>
-        <img src="assets/img/logoNarbonne.png" alt="logo"/>
+        <img src="assets/img/ern.png" class="ern" alt="logo Ecole Regionale du Numérique"/>
+        <h1 class="h1">Simplon</h1>
+        <img src="assets/img/logoNarbonne.png" alt="Simplon"/>
         <h3 class="h3">Narbonne 2017</h3>
       </div>
       <div class="divScnd">
