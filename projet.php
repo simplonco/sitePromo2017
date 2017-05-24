@@ -24,7 +24,6 @@
                 <img src="assets/img/projets/projet3-2.png"/>
                 <img src="assets/img/projets/projet3-3.png"/>
                 <img src="assets/img/projets/projet3-4.png"/>
-
             </div>
                 <input type="range" name="slider" id="slider" />
                 <div id="caption"></div>
