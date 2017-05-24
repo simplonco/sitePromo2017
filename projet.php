@@ -17,9 +17,13 @@
       <?php include("./includes/templates/header.php") ?>
         <div class="trombi">
             <div id="gallery">
-                <img src="projet/1.png"/>
-                <img src="projet/2.png"/>
-                <img src="projet/3.png"/>
+                <img src="assets/img/projets/projet2.png"/>
+                <img src="assets/img/projets/projet2-1.png"/>
+                <img src="assets/img/projets/projet2-2.png"/>
+                <img src="assets/img/projets/projet3.png"/>
+                <img src="assets/img/projets/projet3-2.png"/>
+                <img src="assets/img/projets/projet3-3.png"/>
+                <img src="assets/img/projets/projet3-4.png"/>
 
             </div>
                 <input type="range" name="slider" id="slider" />

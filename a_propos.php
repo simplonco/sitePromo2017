@@ -23,7 +23,7 @@
           </div>
 
           <div class="ern">
-            <h2>Financée par l'Ecole Régionale du Numérique</h2>
+            <h2>Ecole Régionale du Numérique</h2>
 
             <p>15 participants, résidents d'occitanie, ont été sélectionnés sur la base de tests techniques et de leur motivation, pour participer à la formation "Développeur Logiciel" financée par la Région Occitanie.
             Cette dernière dure 10 mois (dont 2 et demi de stage en entreprise).
