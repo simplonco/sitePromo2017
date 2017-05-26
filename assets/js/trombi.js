@@ -218,6 +218,12 @@ function displayGallery() {
           $('#caption img').css('position', 'relative');
           $('#caption img').css('', '');
       }
+      var lienCV = currentSlideImage.attr('aria-cv');
+        if(lienCV != undefined){
+            $('#caption').append( "<a href='"+lienCV+"'target='_blank'><img src='./assets/img/cv.png' alt='CV'></a>" );
+            $('#caption img').css('position', 'relative');
+            $('#caption img').css('', '');
+        }
 }
 
 
