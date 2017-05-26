@@ -2,7 +2,7 @@
 <html lang="fr">
 <head>
 
-<title>Trombinoscope Simplon Narbonne 2017</title>
+<title>Projets réalisés - Simplon Narbonne 2017</title>
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
 <link rel="stylesheet" href="assets/css/trombi.css">
 <link rel="stylesheet" href="assets/css/footer.css">
