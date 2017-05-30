@@ -90,13 +90,13 @@
 
       <div class="divScnd">
         <ul class="menuScnd">
-          <li class="test"><a href="#">Introduction</a></li>
+          <li class="test"><a href="./a_propos.php">Introduction</a></li>
           <li class="test active"><a href="#">Outils</a></li>
-          <li class="test"><a href="#">Nos projets</a></li>
-          <li class="test"><a href="./trombi.html">Trombinoscope</a></li>
+          <li class="test"><a href="./projet.php">Nos projets</a></li>
+          <li class="test"><a href="./trombi.php">Trombinoscope</a></li>
         </ul>
       </div>
-    </header>
+
   </div>
 </body>
 </html>

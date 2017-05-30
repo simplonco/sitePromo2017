@@ -33,7 +33,9 @@ html, body {
   padding-top: 10px;
   height: auto;
 }
-
+.titres img.ern {
+  width: 25%;
+}
 .header {
   background: url("../img/background.jpg") scroll no-repeat;
   background-size: 120%;

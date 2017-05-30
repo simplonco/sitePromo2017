@@ -2,7 +2,7 @@
 <html lang="fr">
 <head>
 
-<title>Trombinoscope Simplon Narbonne 2017</title>
+<title>Projets réalisés - Simplon Narbonne 2017</title>
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
 <link rel="stylesheet" href="assets/css/trombi.css">
 <link rel="stylesheet" href="assets/css/footer.css">
@@ -17,10 +17,13 @@
       <?php include("./includes/templates/header.php") ?>
         <div class="trombi">
             <div id="gallery">
-                <img src="projet/1.png"/>
-                <img src="projet/2.png"/>
-                <img src="projet/3.png"/>
-
+                <img src="assets/img/projets/projet2.png" alt="Projet de cours ludique sous forme d'enquête" title="Projet de cours ludique sous forme d'enquête"/>
+                <img src="assets/img/projets/projet2-1.png" alt="Projet de cours ludique sous forme d'enquête" title="Projet de cours ludique sous forme d'enquête"/>
+                <img src="assets/img/projets/projet2-2.png" alt="Projet de cours ludique sous forme d'enquête" title="Projet de cours ludique sous forme d'enquête"/>
+                <img src="assets/img/projets/projet3.png" alt="Application mobile : Jeu m'instruis" title="Application mobile : Jeu m'instruis" />
+                <img src="assets/img/projets/projet3-2.png" alt="Application mobile : Jeu m'instruis" title="Application mobile : Jeu m'instruis" />
+                <img src="assets/img/projets/projet3-3.png" alt="Application mobile : Jeu m'instruis" title="Application mobile : Jeu m'instruis" />
+                <img src="assets/img/projets/projet3-4.png" alt="Application mobile : Jeu m'instruis" title="Application mobile : Jeu m'instruis"/>
             </div>
                 <input type="range" name="slider" id="slider" />
                 <div id="caption"></div>

@@ -6,14 +6,10 @@ body{
   background-attachment: fixed;
   margin: 0;
 }
-
-
-
 .content {
   margin-bottom: 0;
   border-radius: 0;
 }
-
 .tête{
   font-size: Arial, sans-serif;
   background-color: rgba(0, 0, 0, 0.5);
@@ -23,11 +19,9 @@ body{
   margin: 0;
   text-align: center;
 }
-
 .contact{
   float: left;
 }
-
 h1 h2{
   font-size: Arial, sans-serif;
 }
@@ -58,7 +52,7 @@ ul li{
   float: right;
   margin: 10px 150px 0px 0px;
 
-}*/
+}
 form {
   margin: 0 auto;
   width: 400px;
@@ -66,11 +60,11 @@ form {
   border: 1px solid #FF7800;
   border-radius: 1em;
 }
-
+/*
 div + div {
   margin-top: 1em;
 }
-
+*/
 label {
   display: inline-block;
   width: 90px;
