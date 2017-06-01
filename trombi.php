@@ -24,17 +24,17 @@
                 <img src="assets/img/sandra.png" alt="Sandra : C'est pénible" aria-linkedin="https://www.linkedin.com/in/sandra-guillemin-b42793139/" aria-github="https://github.com/crazychouwi" aria-cv="https://narbonne.simplon.co/assets/PDF/cv_sandra.pdf" />
                 <img src="assets/img/romain.png" alt="Romain : Ouais" aria-linkedin="https://www.linkedin.com/in/romain-cosson-473bb2139/" aria-github="https://github.com/RCosson" aria-cv="https://narbonne.simplon.co/assets/PDF/cv_romain.pdf" />
                 <img src="assets/img/axel.png" alt="Axel : C'est trop facile" aria-linkedin="https://www.linkedin.com/in/axel-delbourg-387bb3139/" aria-github="https://github.com/kaonb-ax" aria-cv="https://narbonne.simplon.co/assets/PDF/CV_axel.pdf" />
-                <img src="assets/img/mobylette.png" alt="Mobylette : Vive le vélo" aria-linkedin="https://www.linkedin.com/in/ange-mondoloni-a3a392105/" aria-github="https://github.com/Biciclet" aria-cv="https://narbonne.simplon.co/assets/PDF/cv_mondoloni_ange.pdf" />
+                <img src="assets/img/mobylette.png" alt="Ange : Vive le vélo" aria-linkedin="https://www.linkedin.com/in/ange-mondoloni-a3a392105/" aria-github="https://github.com/Biciclet" aria-cv="https://narbonne.simplon.co/assets/PDF/cv_mondoloni_ange.pdf" />
                 <img src="assets/img/anne.png" alt="Anne : Le thé c'est la vie" aria-linkedin="https://www.linkedin.com/in/anne-serrano-447365117/" aria-github="https://github.com/anneserrano" aria-cv="https://narbonne.simplon.co/assets/PDF/" />
                 <img src="assets/img/ivan.png" alt="Ivan" aria-linkedin="https://www.linkedin.com/in/ivan-jansky-987bb2139/" aria-github="https://github.com/patatobeur" />
                 <img src="assets/img/aida.png" alt="Aïda" aria-linkedin="https://www.linkedin.com/in/adelaide-labis-2bb660a5/" aria-github="https://github.com/Aida67" />
                 <img src="assets/img/hermeline.png" alt="Hermeline" aria-linkedin="https://www.linkedin.com/in/hermeline-rousselet/" aria-github="https://github.com/hermeline" aria-cv="https://narbonne.simplon.co/assets/PDF/cv_hermeline.pdf" />
                 <img src="assets/img/marl.png" alt="Marlène : Je te surveille" aria-linkedin="https://www.linkedin.com/in/marl%C3%A8ne-mas-b4a977137/" aria-github="https://github.com/Sam11360" aria-cv="https://narbonne.simplon.co/assets/PDF/cv_marlene_Mas.pdf" />
-                <img src="assets/img/jenny.png" alt="Jenny : Girl power" aria-linkedin="https://www.linkedin.com/in/jennifer-a-528b34137/" aria-github="https://github.com/Jennysmille" aria-cv="https://narbonne.simplon.co/assets/PDF/cv_jennifer.pdf" />
-                <img src="assets/img/lou.png" alt="Lou : ÇA MARCHE PAAAAAAS !!!!!" aria-linkedin="https://www.linkedin.com/in/laurelou-bouchareu-352bb3139/" aria-github="https://github.com/nunkabuk" aria-cv="https://narbonne.simplon.co/assets/PDF/cv_laurelou.pdf" />
-                <img src="assets/img/elo.png" alt="Elo" aria-linkedin="https://www.linkedin.com/in/elo%C3%AFse-m%C3%A9cozzi-09baa250/" aria-github="https://github.com/elo062" aria-cv="https://narbonne.simplon.co/assets/PDF/cv_eloise.pdf" />
+                <img src="assets/img/jenny.png" alt="Jennifer : Girl power" aria-linkedin="https://www.linkedin.com/in/jennifer-a-528b34137/" aria-github="https://github.com/Jennysmille" aria-cv="https://narbonne.simplon.co/assets/PDF/cv_jennifer.pdf" />
+                <img src="assets/img/lou.png" alt="Laurelou : ÇA MARCHE PAAAAAAS !!!!!" aria-linkedin="https://www.linkedin.com/in/laurelou-bouchareu-352bb3139/" aria-github="https://github.com/nunkabuk" aria-cv="https://narbonne.simplon.co/assets/PDF/cv_laurelou.pdf" />
+                <img src="assets/img/elo.png" alt="Eloïse" aria-linkedin="https://www.linkedin.com/in/elo%C3%AFse-m%C3%A9cozzi-09baa250/" aria-github="https://github.com/elo062" aria-cv="https://narbonne.simplon.co/assets/PDF/cv_eloise.pdf" />
                 <img src="assets/img/pat.png" alt="Patrick : Raspberry power" aria-linkedin="https://www.linkedin.com/in/patrick-belaire-8a019610b/" aria-github="https://github.com/simplon-patrick-b"/>
-                <img src="assets/img/nicoav.png" alt="Nico : On va faire un exercice marrant" aria-github="https://github.com/simplon-nicolasV"/>
+                <img src="assets/img/nicoav.png" alt="Nicolas : On va faire un exercice marrant" aria-github="https://github.com/simplon-nicolasV"/>
             </div>
 
                 <input type="range" name="slider" id="slider" />
