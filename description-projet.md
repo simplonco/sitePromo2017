@@ -1,0 +1,1 @@
+﻿L'appli Nata est destinée aux personnes cherchant à soigner leurs maux par la réfléxologie. En fonction des symptômes et zones de corps choisis vous aurez accès aux explications des différentes méthodes (massages palmaires ou plantaires), avec images d'illustration.
