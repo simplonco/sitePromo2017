@@ -1,0 +1,61 @@
+/* Icônes main et pied Méthodes */
+html, body {
+  height: auto;
+}
+
+.icone {
+  width: 35px;
+  height: 35px;
+}
+
+/* Description de la mission */
+
+.methode{
+  background-color: white;
+  padding: 5px 5px 5px 0px;
+}
+
+/* Main haut gauche */
+.blanc{
+  background-color: white;
+  padding: 6px 20%;
+  border-radius: 3px 3px 0px 0px;
+}
+
+/* Pied haut droite */
+.gris{
+  padding: 6px 20%;
+}
+
+.container{
+  margin: 0 10px 0 10px;
+}
+
+.descriptionMassage{
+  padding: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.imgMethode{
+  width: 145px;
+  height: 145px;
+  margin-top: 30px;
+}
+
+.haut{
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer {
+  position: relative;
+}
+
+.footer p {
+  line-height: 45px;
+}

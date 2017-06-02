@@ -1,0 +1,54 @@
+{
+    "18": {
+      "titre": "Hanches",
+      "image":"hanches",
+      "image_p":"hanches_p",
+      "texte": "",
+      "texte_p": "",
+      "zone":"both"
+    },
+    "4": {
+      "titre": "Coccyx et Sacrum",
+      "image":"coccys-sacrum",
+      "texte": "",
+      "zone":"main"
+    },
+    "9": {
+      "titre": "Epaule",
+      "image":"epaule",
+      "image_p":"epaule_p",
+      "texte": "",
+      "texte_p": "",
+      "zone":"both"
+    },
+    "15": {
+      "titre": "Genoux",
+      "image":"genou",
+      "texte": "",
+      "zone":"main"
+    },
+    "3": {
+      "titre": "Cervicale, Dorsale",
+      "image_p":"ce_do_lo_ra_p",
+      "texte_p": "",
+      "zone":"pied"
+    },
+    "26": {
+      "titre": "Plexus Solaire",
+      "image":"plexus_stress_fat_nerv",
+      "texte": "",
+      "zone":"main"
+    },
+    "5": {
+      "titre": "Cou et Nuque",
+      "image":"cou_nuque",
+      "texte": "",
+      "zone":"main"
+    },
+    "28": {
+      "titre": "Rachi",
+      "image_p":"ce_do_lo_ra_p",
+      "texte_p": "",
+      "zone":"pied"
+    }
+}

@@ -1,0 +1,94 @@
+
+{
+  "0": {
+    "titre": "Amygdale",
+    "image_p":"gorge_amy_P",
+    "texte": "",
+    "zone":"pied"
+  },
+  "1": {
+    "titre": "Bras",
+    "image":"bras",
+    "texte": "",
+    "zone":"main"
+  },
+  "7": {
+    "titre": "Cuisse",
+    "image":"cuisse",
+    "texte": "",
+    "zone":"main"
+  },
+  "8": {
+    "titre": "Epaule",
+    "image":"epaule",
+    "image_p":"epaule_p",
+    "texte": "",
+    "texte_p": "",
+    "zone":"both"
+  },
+  "11": {
+    "titre": "Fatigue des Yeux",
+    "image":"yeux",
+    "image_p":"fatigue_yeux_p",
+    "texte": "",
+    "texte_p": "",
+    "zone":"both"
+  },
+  "14": {
+    "titre": "Genou",
+    "image":"genou",
+    "texte": "",
+    "zone":"main"
+  },
+  "16": {
+    "titre": "Gorge",
+    "image":"gorge",
+    "image_p":"gorge_amy_p",
+    "texte": "",
+    "texte_p": "",
+    "zone":"both"
+  },
+  "17": {
+    "titre": "Hanches",
+    "image":"hanches",
+    "image_p":"hanches_p",
+    "texte": "",
+    "texte_p": "",
+    "zone":"both"
+  },
+  "19": {
+    "titre": "Hémoroïde et Rectum",
+    "image":"hemo_rect",
+    "texte": "",
+    "zone":"main"
+  },
+  "22": {
+    "titre": "Lombaires",
+    "image":"lombaire",
+    "image_p":"ce_do_lo_ra_p",
+    "texte": "",
+    "texte_p": "",
+    "zone":"both"
+  },
+  "23": {
+    "titre": "Oreille Externe",
+    "image":"oreille_externe",
+    "texte": "",
+    "zone":"main"
+  },
+    "31": {
+      "titre": "Sinus et Nez",
+      "image":"sinus",
+      "image_p":"sinus_nez_p",
+      "texte": "",
+      "texte_p": "",
+      "zone":"both"
+    },
+
+  "36": {
+    "titre": "Thyroïde",
+    "image":"thyroide",
+    "texte": "",
+    "zone":"main"
+    }
+  }

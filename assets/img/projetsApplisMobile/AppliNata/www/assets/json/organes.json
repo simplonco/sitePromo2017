@@ -1,0 +1,94 @@
+{
+  "21": {
+    "titre": "Hypophyse",
+    "image":"hypophyse",
+    "texte": "",
+    "zone":"main"
+  },
+  "37": {
+    "titre": "Thyroïde",
+    "image":"",
+    "texte": "thyroide",
+    "zone":"main"
+  },
+  "24": {
+    "titre": "Oreille Interne",
+    "image":"oreille_interne",
+    "texte": "",
+    "zone":"main"
+  },
+  "32": {
+    "titre": "Sinus et Nez",
+    "image":"sinus",
+    "image_p":"sinus_nez_p",
+    "texte": "",
+    "texte_p": "",
+    "zone":"both"
+  },
+  "39": {
+    "titre": "Utherus",
+    "image":"utherus_prost",
+    "texte": "",
+    "zone":"main"
+  },
+  "13": {
+    "titre": "Foie",
+    "image":"foie",
+    "texte": "",
+    "zone":"main"
+  },
+  "36": {
+    "titre": "Système nerveux",
+    "image": "",
+    "texte": "syst_nerv",
+    "zone": "main"
+  },
+  "29": {
+    "titre": "Rate",
+    "image":"rate",
+    "texte": "",
+    "zone":"main"
+  },
+  "25": {
+    "titre": "Pancréas",
+    "image":"pancreas",
+    "texte": "",
+    "zone":"main"
+  },
+  "10": {
+    "titre": "Estomac",
+    "image":"estomac",
+    "texte": "",
+    "zone":"main"
+  },
+  "28": {
+    "titre": "Poumons",
+    "image":"poumons",
+    "texte": "",
+    "zone":"main"
+  },
+  "25": {
+    "titre": "Ovaires, Testicule",
+    "image":"ovaires_testi",
+    "texte": "",
+    "zone":"main"
+  },
+  "30": {
+    "titre": "Rein",
+    "image":"rein",
+    "texte": "",
+    "zone":"main"
+  },
+  "39": {
+    "titre": "Uretère",
+    "image":"uretere",
+    "texte": "",
+    "zone":"main"
+  },
+  "41": {
+    "titre": "Vessie",
+    "image":"vessie",
+    "texte": "",
+    "zone":"main"
+  }
+}

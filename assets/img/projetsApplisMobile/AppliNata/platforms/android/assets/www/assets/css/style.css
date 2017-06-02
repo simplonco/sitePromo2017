@@ -1,0 +1,217 @@
+@font-face {
+  font-family: 'oui';
+  src: url('../font/SourceSansPro-Light.otf');
+}
+@font-face {
+  font-family: 'reg';
+  src: url('../font/SourceSansPro-Regular.otf');
+}
+*{
+  font-family: 'oui';
+}
+html, body {
+  width: 100%;
+  height: 100%;
+}
+body {
+  margin: 0;
+  background-color: white;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.content {
+  width: 100%;
+  background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.menu {
+  background-color:  ;
+  background-image: linear-gradient(to top, #2fb023 0%, #53aea5 100%);
+  box-shadow: 0px 3px 3px grey;
+  width: 100%;
+  height: 50px;
+  position: absolute;
+  top: 0;
+  text-align: center;
+}
+.menu h1, h2, h3 {
+  color: white;
+  line-height: 10px;
+  margin-top: 20px;
+}
+.menu i {
+  position: absolute;
+  top: 10px;
+  left: 15px;
+  font-size: 200%;
+  color:white;
+}
+.logo {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  width: 40px;
+  height: 40px;
+}
+.back {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 40px;
+  height: 40px;
+  color: white;
+}
+.inside {
+  display: flex;
+  flex-flow: row;
+  flex-shrink: none;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 70px;
+}
+.top {
+  min-height: 10vw;
+  width: 90%;
+  margin: 5px;
+  font-size: 200%;
+  padding: 5px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.square {
+  min-width: 20vw;
+  min-height: 20vw;
+  margin: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  line-height: 40px;
+}
+.square p {
+  font-weight: bold;
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+  font-size: 85%;
+  height: 0;
+  display: block;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.test {
+  margin-top: 30px;
+}
+.desc {
+  width: 100%;
+  height: 20%;
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  bottom: 0;
+  text-align: left;
+}
+.desc p {
+  margin: 0;
+  padding: 5px;
+}
+.inside a {
+  color: white;
+  text-decoration: none;
+}
+.corps {
+  background-image: url("../img/corps.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 100%;
+}
+.squelette {
+  background-image: url("../img/squelette.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 100%;
+}
+.organes {
+  background-image: url("../img/organes.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 100%;
+}
+.maux {
+  background-image: url("../img/maux.jpg");
+  background-size: cover;
+  border-radius: 100%;
+}
+.footer {
+  position: relative;
+  margin-top: 50px;
+  bottom: 0;
+  height: 50px;
+  width: 100%;
+  bottom: 0;
+  background-color: black;
+  text-align: center;
+  line-height: 15px;
+}
+.middle {
+  width: 85%;
+  min-height: 278px;
+  background-color: white;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid darkgrey;
+  text-align: left;
+  padding-left: 25px;
+  padding-top: 5px;
+}
+.middle li {
+  font-family: 'reg';
+}
+.midHolder{
+  color: darkgrey;
+  font-size: 24px;
+}
+.middle a {
+  text-decoration: none;
+  color: black;
+}
+
+.footer p {
+  font-size: 80%;
+  color: white;
+  line-height: 50px;
+  margin-bottom: 0;
+}
+.contact{
+  font-size: 23px;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-top: 150px;
+  margin-left: 23px;
+  text-align: left;
+  position: fixed;
+  border: 2px #C0C0C0 solid;
+  box-shadow: 6px 6px 6px #C0C0C0;
+}
+.credit{
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 150px;
+  margin-left: 18px;
+  text-align: left;
+  position: fixed;
+  border: 2px #C0C0C0 solid;
+  box-shadow: 6px 6px 6px #C0C0C0;
+}
+.mention{
+  margin-top: 60px;
+  margin-left: 30px;
+  text-align: center;
+}
+.ern{
+  text-align: center;
+}
+.contact{
+
+}

@@ -1,0 +1,51 @@
+/*Mettez et modifiez le nesting ci-dessous pour affecter à la liste .listDeux uniquement un lien blue et lime au hover :*/
+
+ul.listDeux {
+    padding: 0;
+    li {
+        list-style: none;
+         a {
+            color: blue;
+            &:hover {
+                color: lime;
+            }
+        }
+    }
+}
+
+
+ul.listTrois {
+    padding: 0;
+    li {
+        list-style: none;
+         a {
+            color: yellow;
+            &:hover {
+                color: grey;
+            }
+        }
+    }
+}
+
+/* Créez un héritage %box comme ci-dessous, vous pouvez l'utiliser ensuite avec le mot clef @extend dans vos classes box1, box2 et box3 pour ajouter ces propriétés automatiquement. */
+
+
+%box {
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid black;
+}
+
+.box1 {
+    @extend %box;
+}
+
+.box2 {
+    @extend %box;
+    border-color: lime;
+}
+
+.box3 {
+    @extend %box;
+    background-color: blue;
+}

@@ -1,0 +1,46 @@
+{
+  "20": {
+  "titre": "Hémoroïde et Rectum",
+  "image":"hemo_rect",
+  "texte": "",
+  "zone":"main"
+  },
+  "33": {
+    "titre": "Sciatique",
+    "image_p":"sciatique_p",
+    "texte_p": "",
+    "zone":"pied"
+  },
+  "6": {
+    "titre": "Constipation, Diarrhée",
+    "image_p":"constipation_dia_p",
+    "texte_p": "",
+    "zone":"pied"
+  },
+  "12": {
+    "titre": "Fatigue des Yeux",
+    "image":"yeux",
+    "image_p":"fatigue_yeux_p",
+    "texte": "",
+    "texte_p": "",
+    "zone":"both"
+  },
+  "2": {
+    "titre": "Céphalées, Migraines",
+    "image_p":"cephalees_p",
+    "texte_p": "",
+    "zone":"pied"
+  },
+  "35": {
+    "titre": "Stress, Fatigue, Nevosité",
+    "image":"plexus_stress_fat_nerv",
+    "texte": "",
+    "zone":"main"
+  },
+  "34": {
+    "titre": "Surrénale ",
+    "image":"surrenale",
+    "texte": "",
+    "zone":"main"
+  }
+}
