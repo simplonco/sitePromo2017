@@ -43,7 +43,7 @@
             </div>
 
             <div style="left:105px;top:210px;" data-z="200">
-              <img src="assets/img/github.png" width="90px" height="90px" alt="github" logo"/>
+              <img src="assets/img/github.png" width="90px" height="90px" alt="github logo"/>
             </div>
 
             <div style="left:185px;top:20px;" data-z="180">
@@ -92,6 +92,7 @@
         <ul class="menuScnd">
           <li class="test"><a href="./a_propos.php">Introduction</a></li>
           <li class="test active"><a href="#">Outils</a></li>
+          <li class="test"><a href="./lexique/lexique.php">Lexique</a></li>
           <li class="test"><a href="./projet.php">Nos projets</a></li>
           <li class="test"><a href="./trombi.php">Trombinoscope</a></li>
         </ul>
