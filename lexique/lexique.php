@@ -43,6 +43,7 @@
 			<div id="a">A</div>
 				<?php include("./includes articles/apache.php") ?>
 				<?php include("./includes articles/api.php") ?>
+				<?php include("./includes articles/agile.php") ?>
 			<div id="b">B</div>
 				<?php include("./includes articles/bower.php") ?>
 			<div id="c">C</div>
@@ -77,6 +78,7 @@
 				<?php include("./includes articles/mbaas.php") ?>
 				<?php include("./includes articles/mcd.php") ?>
 				<?php include("./includes articles/mockup.php") ?>
+				<?php include("./includes articles/MLD.php") ?>
 				<?php include("./includes articles/moscow.php") ?>
 			<div id="n">N</div>
 				<?php include("./includes articles/nih.php") ?>
